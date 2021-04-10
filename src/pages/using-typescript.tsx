@@ -11,6 +11,7 @@ type DataProps = {
   }
 }
 
+
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <SEO title="Using TypeScript" />

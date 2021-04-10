@@ -11,7 +11,8 @@ const NavLink = styled(Link)`
   line-height: 1;
   margin: 0 0.5rem 0 0;
   padding: 0.25rem;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #4F5ABF;
   
 
   &.current-page {
@@ -25,35 +26,35 @@ const NavLink = styled(Link)`
 
 `;
 
-const Header = ({ siteTitle }) => (
-  <header 
+const Footer = ({ siteTitle }) => (
+  <footer 
     css={css`
       background: transparnet;
       
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-end;
       align-items: center;
       padding: 0.5rem calc((100vw - 950px - 0.5rem) / 2);
       height: 72px;
     `}
   >
-    <NavLink to="/" fontWeight="bold">Anastasiia Pyvovarova</NavLink>
+    
     <nav css={css`
-      margin-top: 0;
+      margin-top: 128px;
     `}>
-      <NavLink to="/about" activeClassName="current-page">Bio</NavLink>
-      <NavLink to="/work" activeClassName="current-page">Work</NavLink>
-      <NavLink to="/resume" activeClassName="current-page">Resume</NavLink>
+      <NavLink to="#" activeClassName="current-page">Linked</NavLink>
+      <NavLink to="#" activeClassName="current-page">Behance</NavLink>
+      <NavLink to="#" activeClassName="current-page">Dribbble</NavLink>
     </nav>
-  </header>
+  </footer>
 )
 
-Header.propTypes = {
+Footer.propTypes = {
   siteTitle: PropTypes.string,
 }
 
-Header.defaultProps = {
+Footer.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Footer
