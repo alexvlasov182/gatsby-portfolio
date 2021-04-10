@@ -83,7 +83,7 @@ const Layout = ({ children }) => {
         <title>{ title }</title>
         <meta name="description" content={ description } /> 
        </Helmet>
-      <Header />
+      <Header todos={ data } />
       <main 
         css={css`
             margin: 2rem auto 4rem;

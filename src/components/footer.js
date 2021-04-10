@@ -42,9 +42,9 @@ const Footer = ({ siteTitle }) => (
     <nav css={css`
       margin-top: 128px;
     `}>
-      <NavLink to="#" activeClassName="current-page">Linked</NavLink>
-      <NavLink to="#" activeClassName="current-page">Behance</NavLink>
-      <NavLink to="#" activeClassName="current-page">Dribbble</NavLink>
+      <NavLink to="https://www.linkedin.com/in/anastasiia-pyvovarova-a8b36216b/" activeClassName="current-page">Linked</NavLink>
+      <NavLink to="https://www.behance.net/joblist?type=2&country=UA" activeClassName="current-page">Behance</NavLink>
+      <NavLink to="https://dribbble.com/" activeClassName="current-page">Dribbble</NavLink>
     </nav>
   </footer>
 )
