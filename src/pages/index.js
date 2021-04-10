@@ -22,7 +22,6 @@ const Main = () => (
       understanding of visually pleasant and user friendly design, typography,
       composition and color theory.
     </p>
-    <Link to="#">Learn about me &rarr;</Link>
   </Layout>
 )
 
