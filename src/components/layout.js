@@ -39,9 +39,6 @@ const Layout = ({ children }) => {
             margin: 0;
           }
 
-          * + * {
-            margin-top: 1rem;
-          }
           html,
           body {
             margin: 0;
@@ -88,7 +85,7 @@ const Layout = ({ children }) => {
         css={css`
             margin: 2rem auto 4rem;
             max-width: 90vw;
-            width: 700px;
+            width: 100%;
         `}
       >{ children }</main>
      <Footer />

@@ -4,7 +4,8 @@ import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 
 const About = () => (
-  <Layout>
+  <Layout >
+    <div className="about-block">
     <div className="front-block">
       <StaticImage
         src="../images/front-img.png"
@@ -35,6 +36,8 @@ const About = () => (
       understanding of visually pleasant and user friendly design, typography,
       composition and color theory.
     </p>
+    </div>
+    
   </Layout>
 )
 
