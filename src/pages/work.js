@@ -13,7 +13,7 @@ const SecondPage = () => (
     <h2 className="title-text  ">When it comes to work, <br/> my motto is “Simple is better".</h2>
       <Row>
         <Col lg={6}>
-          <Card style={{ width: "464px" }}>
+          <Card>
             <StaticImage
               src="../images/doably.png"
               width={548}
@@ -33,7 +33,7 @@ const SecondPage = () => (
         </Col>
 
         <Col lg={6}>
-          <Card style={{ width: "464px" }}>
+          <Card >
             <StaticImage
               src="../images/spec-writer.png"
               width={548}
@@ -52,7 +52,7 @@ const SecondPage = () => (
           </Card>
         </Col>
         <Col lg={6}>
-          <Card style={{ width: "464px" }}>
+          <Card >
           <StaticImage
               src="../images/focal-point.png"
               width={548}
@@ -71,7 +71,7 @@ const SecondPage = () => (
           </Card>
         </Col>
         <Col lg={6}>
-          <Card style={{ width: "464px" }}>
+          <Card >
           <StaticImage
               src="../images/mvp.png"
               width={548}
