@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
       height: 72px;
     `}
   >
-    <NavLink to="/" fontWeight="bold">Anastasiia Pyvovarova</NavLink>
+    <NavLink to="/about" fontWeight="bold">Anastasiia Pyvovarova</NavLink>
     <nav css={css`
       margin-top: 0;
     `}>
