@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.5rem calc((100vw - 950px - 0.5rem) / 2);
+      padding: 0.5rem calc((100vw - 1135px - 0.5rem) / 2);
       height: 72px;
     `}
   >
