@@ -43,8 +43,8 @@ const Footer = ({ siteTitle }) => (
       margin-top: 128px;
     `}>
       <NavLink to="https://www.linkedin.com/in/anastasiia-pyvovarova-a8b36216b/" activeClassName="current-page">Linked</NavLink>
-      <NavLink to="https://www.behance.net/joblist?type=2&country=UA" activeClassName="current-page">Behance</NavLink>
-      <NavLink to="https://dribbble.com/" activeClassName="current-page">Dribbble</NavLink>
+      <NavLink to="https://www.behance.net/anastasiya503d2" activeClassName="current-page">Behance</NavLink>
+      <NavLink to="https://dribbble.com/leansquad" activeClassName="current-page">Dribbble</NavLink>
     </nav>
   </footer>
 )
