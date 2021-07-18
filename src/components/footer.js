@@ -7,44 +7,53 @@ import { Link } from "gatsby"
 const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
-  font-weight: ${ props => props.fontWeight || 'normal'};
+  font-weight: ${props => props.fontWeight || "normal"};
   line-height: 1;
   margin: 0 0.5rem 0 0;
   padding: 0.25rem;
   text-decoration: underline;
-  color: #4F5ABF;
-  
+  color: #4f5abf;
 
   &.current-page {
     border-bottom: 2px solid #222;
-    color: #4F5ABF;
+    color: #4f5abf;
   }
 
   &:last-of-type {
     margin-right: 0;
   }
-
-`;
+`
 
 const Footer = ({ siteTitle }) => (
-  <footer 
+  <footer
     css={css`
-      background: transparnet;
-      
+      height: 80px;
+
       display: flex;
-      justify-content: flex-end;
       align-items: center;
-      padding: 0.5rem calc((100vw - 950px - 0.5rem) / 2);
-      height: 72px;
+      justify-content: center;
+      flex: 0 0 auto;
     `}
   >
-    
-    <nav css={css`
-      margin-top: 128px;
-    `}>
-      <NavLink to="https://www.linkedin.com/in/anastasiia-pyvovarova-a8b36216b/" activeClassName="current-page">Linked</NavLink>
-      <NavLink to="https://www.behance.net/anastasiya503d2" activeClassName="current-page">Behance</NavLink>
-      <NavLink to="https://dribbble.com/leansquad" activeClassName="current-page">Dribbble</NavLink>
+    <nav css={css``}>
+      <NavLink
+        to="https://www.linkedin.com/in/anastasiia-pyvovarova-a8b36216b/"
+        activeClassName="current-page"
+      >
+        LinkedIn
+      </NavLink>
+      <NavLink
+        to="https://www.behance.net/anastasiya503d2"
+        activeClassName="current-page"
+      >
+        Behance
+      </NavLink>
+      <NavLink
+        to="https://dribbble.com/leansquad"
+        activeClassName="current-page"
+      >
+        Dribbble
+      </NavLink>
     </nav>
   </footer>
 )

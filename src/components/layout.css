@@ -1,4 +1,3 @@
-
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -54,7 +53,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #4F5ABF;
+  color: #4f5abf;
 }
 a:active,
 a:hover {
@@ -611,8 +610,24 @@ pre tt:after {
   line-height: 36px;
 }
 
-.paragraph {
-  margin-top: 56px;
+.paragraph-doably {
+  /* margin-top: 56px; */
+  margin-bottom: 64px;
+  font-size: 24px;
+  text-align: center;
+  color: #212121;
+}
+
+.title-doably {
+  margin: 0;
+  color: #212121;
+  font-size: 18px;
+}
+
+.subtitle-doably {
+  margin: 0;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 .card {
@@ -621,9 +636,16 @@ pre tt:after {
 
 .title-text {
   margin: 140px 0 80px 0;
-  
   margin-left: 35px;
-  
+}
+
+.smile {
+  font-size: 75px;
+  line-height: 35px;
+}
+
+#gatsby-focus-wrapper {
+  position: relative;
 }
 
 @media only screen and (max-width: 480px) {
