@@ -64,9 +64,9 @@ const Focalpoint = () => {
             rel="noreferrer"
             className="link"
             target="_blank"
-            href="https://qa.focalpointprocurement.com/features"
+            href="https://focalpointprocurement.com/features"
           >
-            https://qa.focalpointprocurement.com/features
+            https://focalpointprocurement.com/features
           </a>
         </div>
       </div>
