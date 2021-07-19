@@ -29,7 +29,7 @@ const About = () => (
         </strong>
         — I’m currently conducting user and market research, creating
         prototypes, visual and design at{" "}
-        <Link className="hover-link" to="https://mvpnow.studio/team">LeanSquad</Link>
+        <Link className="hover-link" rel="noreferrer" target="_blank" to="https://mvpnow.studio/team">LeanSquad</Link>
       </p>
 
       <p className="paragraph">
