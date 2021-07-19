@@ -29,10 +29,10 @@ const About = () => (
         </strong>
         — I’m currently conducting user and market research, creating
         prototypes, visual and design at{" "}
-        <Link to="https://mvpnow.studio/team">LeanSquad</Link>
+        <Link className="hover-link" to="https://mvpnow.studio/team">LeanSquad</Link>
       </p>
 
-      <p>
+      <p className="paragraph">
         I’m a multitasker with an excellent eye for design, imaginative,
         flexible and well-organized. I am the one, who could bring an advanced
         understanding of visually pleasant and user friendly design, typography,
@@ -40,6 +40,6 @@ const About = () => (
       </p>
     </div>
   </Layout>
-)
+);
 
 export default About

@@ -16,7 +16,7 @@ const SecondPage = () => (
       </h2>
       <Row>
         <Col lg={6}>
-          <Link to="/doably">
+          <Link className="card-link" to="/doably">
             <Card>
               <StaticImage
                 src="../images/doably.png"
@@ -25,11 +25,11 @@ const SecondPage = () => (
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="A Gatsby astronaut"
-                style={{ marginBottom: `1.45rem` }}
+                style={{}}
               />
               <Card.Body>
-                <Card.Title className="text-center">Doably</Card.Title>
-                <Card.Text className="text-center">
+                <Card.Title className="text-center darken">Doably</Card.Title>
+                <Card.Text className="text-center subtitle-color">
                   Tool for managing personal and business life
                 </Card.Text>
               </Card.Body>
@@ -38,7 +38,7 @@ const SecondPage = () => (
         </Col>
 
         <Col lg={6}>
-          <Link to="/specwriter">
+          <Link className="card-link" to="/specwriter">
             <Card>
               <StaticImage
                 src="../images/spec-writer.png"
@@ -47,11 +47,12 @@ const SecondPage = () => (
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="A Gatsby astronaut"
-                style={{ marginBottom: `1.45rem` }}
               />
               <Card.Body>
-                <Card.Title className="text-center">SpecWriter</Card.Title>
-                <Card.Text className="text-center">
+                <Card.Title className="text-center darken">
+                  SpecWriter
+                </Card.Title>
+                <Card.Text className="text-center subtitle-color">
                   Specification tool for desktop, web, mobile and API software
                   products
                 </Card.Text>
@@ -60,7 +61,7 @@ const SecondPage = () => (
           </Link>
         </Col>
         <Col lg={6}>
-          <Link to="/focalpoint">
+          <Link className="card-link" to="/focalpoint">
             <Card>
               <StaticImage
                 src="../images/focal-point.png"
@@ -69,11 +70,12 @@ const SecondPage = () => (
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="A Gatsby astronaut"
-                style={{ marginBottom: `1.45rem` }}
               />
               <Card.Body>
-                <Card.Title className="text-center">Focal Point</Card.Title>
-                <Card.Text className="text-center">
+                <Card.Title className="text-center darken">
+                  Focal Point
+                </Card.Title>
+                <Card.Text className="text-center subtitle-color">
                   Tool for procurement management
                 </Card.Text>
               </Card.Body>
@@ -81,7 +83,7 @@ const SecondPage = () => (
           </Link>
         </Col>
         <Col lg={6}>
-          <Link to="/mvp">
+          <Link className="card-link" to="/mvp">
             <Card>
               <StaticImage
                 src="../images/mvp.png"
@@ -90,11 +92,12 @@ const SecondPage = () => (
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="A Gatsby astronaut"
-                style={{ marginBottom: `1.45rem` }}
               />
               <Card.Body>
-                <Card.Title className="text-center">MVP Now</Card.Title>
-                <Card.Text className="text-center">No code platform</Card.Text>
+                <Card.Title className="text-center darken">MVP Now</Card.Title>
+                <Card.Text className="text-center subtitle-color">
+                  No code platform
+                </Card.Text>
               </Card.Body>
             </Card>
           </Link>

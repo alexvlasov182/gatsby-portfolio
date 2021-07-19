@@ -1,7 +1,7 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from 'react'
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Main = () => (
   <Layout>
@@ -11,7 +11,7 @@ const Main = () => (
           src="../images/front-img.png"
           width={300}
           quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
+          formats={['AUTO', 'WEBP', 'AVIF']}
           alt="A Gatsby astronaut"
           style={{ marginBottom: `1.45rem` }}
         />
@@ -25,14 +25,14 @@ const Main = () => (
       <p className="paragraph">
         <strong>
           Passionate about designing technologies to enrich people’s quality of
-          life{" "}
+          life{' '}
         </strong>
         — I’m currently conducting user and market research, creating
-        prototypes, visual and design at{" "}
-        <Link to="https://mvpnow.studio/team">LeanSquad</Link>
+        prototypes, visual and design at{' '}
+        <Link className="hover-link" to="https://mvpnow.studio/team">LeanSquad</Link>
       </p>
 
-      <p>
+      <p className="paragraph">
         I’m a multitasker with an excellent eye for design, imaginative,
         flexible and well-organized. I am the one, who could bring an advanced
         understanding of visually pleasant and user friendly design, typography,

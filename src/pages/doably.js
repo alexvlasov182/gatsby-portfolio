@@ -1,9 +1,7 @@
-import * as React from "react"
-import Layout from "../components/layout"
+import * as React from 'react'
+import Layout from '../components/layout'
 
-import { StaticImage } from "gatsby-plugin-image"
-
-import { Link } from "gatsby"
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Doably = () => {
   return (
@@ -11,10 +9,10 @@ const Doably = () => {
       <div className="about-block">
         <div className="front-block">
           <StaticImage
-            src="../images/doably-big.png"
-            width={700}
+            src="../images/doably-big.jpg"
+            //width={900}
             quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
+            formats={['AUTO', 'WEBP', 'AVIF']}
             alt="A Gatsby astronaut"
             style={{ marginBottom: `1.45rem` }}
           />
@@ -25,7 +23,7 @@ const Doably = () => {
         </h1>
         <div>
           <h3 className="title-doably">Goal</h3>
-          <p>
+          <p className="paragraph">
             Create an easy-to-use and multifunctional to-do application. Make it
             easy not only to manage personal tasks, but also to manage big
             projects, create collections and share it with a team.
@@ -33,7 +31,7 @@ const Doably = () => {
         </div>
         <div>
           <h3 className="title-doably">Team</h3>
-          <p>
+          <p className="paragraph">
             I worked in a cross-functional team. With one another designer on
             this project we were involved in all phases of the project, from
             mapping out the problem to delivering final designs
@@ -41,7 +39,7 @@ const Doably = () => {
         </div>
         <div>
           <h3 className="title-doably">Responsibilities </h3>
-          <p>
+          <p className="paragraph">
             Qualitative Research, UX Design, Visual Design, Prototyping and
             Testing
           </p>
@@ -50,15 +48,26 @@ const Doably = () => {
           <h3 className="title-doably">
             What I have learned from this project?
           </h3>
-          <p>
+          <p className="paragraph">
             For complex UX problems research is a must. I couldn’t have designed
             a product users love without the help of people who will actually
             use it. The user interviews revealed unexpected information.
           </p>
         </div>
+        <div>
+          <h3 className="title-doably">Link to Dribbble</h3>
+          <a
+            rel="noreferrer"
+            className="link"
+            target="_blank"
+            href="https://dribbble.com/shots/9179196-Doably-Web-Application"
+          >
+            https://dribbble.com/shots/9179196-Doably-Web-Application
+          </a>
+        </div>
       </div>
     </Layout>
   )
-}
+};
 
 export default Doably

@@ -618,6 +618,10 @@ pre tt:after {
   color: #212121;
 }
 
+.paragraph {
+  font-weight: 100;
+}
+
 .title-doably {
   margin: 0;
   color: #212121;
@@ -631,6 +635,7 @@ pre tt:after {
 }
 
 .card {
+  margin: 0;
   border: none;
 }
 
@@ -644,8 +649,40 @@ pre tt:after {
   line-height: 35px;
 }
 
+.link {
+  display: block;
+  margin-top: 0.5rem;
+}
+.darken {
+  margin: 0;
+  margin-bottom: 8px;
+  color: #212121;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-link:hover .darken {
+  color: #0b167b;
+  text-decoration: underline;
+}
+
+.card-body {
+  padding-top: 0px !important;
+}
+
+.subtitle-color {
+  margin: 0;
+  color: #555555;
+}
+
 #gatsby-focus-wrapper {
   position: relative;
+}
+
+.hover-link:hover{
+  color: #0b167b;
 }
 
 @media only screen and (max-width: 480px) {
