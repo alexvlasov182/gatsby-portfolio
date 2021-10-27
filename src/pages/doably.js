@@ -1,22 +1,23 @@
-import * as React from 'react'
-import Layout from '../components/layout'
+import * as React from "react"
+import Layout from "../components/layout"
 
-import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from "gatsby-plugin-image"
 
 const Doably = () => {
   return (
     <Layout>
+      <div className="about-img">
+        <StaticImage
+          src="../images/doably-big.jpg"
+          width={1140}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="A Gatsby astronaut"
+          style={{ marginBottom: `1.45rem` }}
+        />
+      </div>
       <div className="about-block">
-        <div className="front-block">
-          <StaticImage
-            src="../images/doably-big.jpg"
-            //width={900}
-            quality={95}
-            formats={['AUTO', 'WEBP', 'AVIF']}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
-        </div>
+        <div className="front-block"></div>
         <p className="subtitle-doably">Doably</p>
         <h1 className="paragraph-doably">
           Tool for managing personal and business life
@@ -68,6 +69,6 @@ const Doably = () => {
       </div>
     </Layout>
   )
-};
+}
 
 export default Doably

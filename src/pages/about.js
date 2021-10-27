@@ -25,21 +25,40 @@ const About = () => (
       <p className="paragraph">
         <strong>
           Passionate about designing technologies to enrich people’s quality of
-          life{" "}
+          life.
         </strong>
-        — I’m currently conducting user and market research, creating
-        prototypes, visual and design at{" "}
-        <Link className="hover-link" rel="noreferrer" target="_blank" to="https://mvpnow.studio/team">LeanSquad</Link>
+        I grew up as a multi-disciplinary designer with a broad approach. But
+        for the last 3 years with{" "}
+        <Link
+          className="hover-link"
+          rel="noreferrer"
+          target="_blank"
+          to="https://mvpnow.studio/team"
+        >
+          LeanSquad
+        </Link>
+        I have focused on being a T-shaped UX/UI and Product designer.
       </p>
 
       <p className="paragraph">
-        I’m a multitasker with an excellent eye for design, imaginative,
-        flexible and well-organized. I am the one, who could bring an advanced
-        understanding of visually pleasant and user friendly design, typography,
-        composition and color theory.
+        I mainly developed large CRM systems and company products. In addition
+        to creating complex systems with a simple user experience, I have
+        experience working with:
+      </p>
+      <ul className="list-item">
+        <li>- Creating journey maps, personas and wireframes,</li>
+        <li>- UX research and testing,</li>
+        <li>- Information architecture,</li>
+        <li>- Style guides and atomic design systems,</li>
+        <li> - Design concepts, prototypes.</li>
+      </ul>
+      <p className="paragraph">
+        When it comes to work, my motto is `Simple is better`. Therefore, I
+        prefer clean and minimalist design. I try to create simple and fun
+        experiences for people who appreciate elegant and dynamic efficiency.
       </p>
     </div>
   </Layout>
-);
+)
 
 export default About

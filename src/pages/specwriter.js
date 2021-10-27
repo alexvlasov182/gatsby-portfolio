@@ -6,17 +6,18 @@ import { StaticImage } from "gatsby-plugin-image"
 const Srecwriter = () => {
   return (
     <Layout>
+      <div className="about-img">
+        <StaticImage
+          src="../images/specwriter-big.jpg"
+          width={1140}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="A Gatsby astronaut"
+          style={{ marginBottom: `1.45rem` }}
+        />
+      </div>
       <div className="about-block">
-        <div className="front-block">
-          <StaticImage
-            src="../images/specwriter-big.jpg"
-            width={700}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
-        </div>
+        <div className="front-block"></div>
         <p className="subtitle-doably">SpecWriter</p>
         <h1 className="paragraph-doably">
           Specification tool for desktop, web, mobile and API software products
@@ -68,6 +69,6 @@ const Srecwriter = () => {
       </div>
     </Layout>
   )
-};
+}
 
 export default Srecwriter

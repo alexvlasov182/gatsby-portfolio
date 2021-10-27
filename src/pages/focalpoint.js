@@ -1,22 +1,23 @@
-import * as React from 'react'
-import Layout from '../components/layout'
+import * as React from "react"
+import Layout from "../components/layout"
 
-import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from "gatsby-plugin-image"
 
 const Focalpoint = () => {
   return (
     <Layout>
+      <div className="about-img">
+        <StaticImage
+          src="../images/focalpoint-big.jpg"
+          width={1140}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="A Gatsby astronaut"
+          style={{ marginBottom: `1.45rem` }}
+        />
+      </div>
       <div className="about-block">
-        <div className="front-block">
-          <StaticImage
-            src="../images/focalpoint-big.jpg"
-            width={700}
-            quality={95}
-            formats={['AUTO', 'WEBP', 'AVIF']}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
-        </div>
+        <div className="front-block"></div>
         <p className="subtitle-doably">Focal Point</p>
         <h1 className="paragraph-doably">Tool for procurement management</h1>
         <div>
