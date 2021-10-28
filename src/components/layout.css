@@ -602,7 +602,7 @@ pre tt:after {
   margin: 0;
 }
 .list-item li {
-  color: #555555 !important;
+  color: #555555;
   font-weight: 100;
 }
 .front-block {
@@ -619,11 +619,21 @@ pre tt:after {
   font-size: 24px;
   line-height: 36px;
 }
-.paragraph-doably {
-  margin-bottom: 64px;
-  font-size: 24px;
+.paragraph-doably,
+.paragraph-focalpoint {
+  font-size: 28px;
   text-align: center;
   color: #212121;
+}
+.paragraph-focalpoint {
+  margin-top: 80px;
+  margin-bottom: 4px;
+}
+.paragraph-subtitle {
+  font-size: 28px;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 24px;
 }
 .paragraph {
   font-weight: 100;
@@ -634,12 +644,14 @@ pre tt:after {
 .paragraph-bottom {
   margin-bottom: 0;
 }
-.title-doably {
+.title-doably,
+.title-focalpoint {
   margin: 0;
   color: #212121;
   font-size: 18px;
 }
-.subtitle-doably {
+.subtitle-doably,
+.subtitle-focalpoint {
   margin: 0;
   margin-bottom: 8px;
   text-align: center;
@@ -673,7 +685,7 @@ pre tt:after {
   text-decoration: underline;
 }
 .card-body {
-  padding-top: 0px !important;
+  padding-top: 0px;
 }
 .subtitle-color {
   margin: 0;

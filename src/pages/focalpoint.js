@@ -6,6 +6,10 @@ import { StaticImage } from "gatsby-plugin-image"
 const Focalpoint = () => {
   return (
     <Layout>
+      <div className="about-block">
+        <h1 className="paragraph-focalpoint"> Focal Point</h1>
+        <p className="subtitle-focalpoint">Tool for procurement management</p>
+      </div>
       <div className="about-img">
         <StaticImage
           src="../images/focalpoint-big.jpg"
@@ -17,11 +21,9 @@ const Focalpoint = () => {
         />
       </div>
       <div className="about-block">
-        <div className="front-block"></div>
-        <p className="subtitle-doably">Focal Point</p>
-        <h1 className="paragraph-doably">Tool for procurement management</h1>
+        <h2 className="paragraph-subtitle">Project overview</h2>
         <div>
-          <h3 className="title-doably">Overview</h3>
+          <h3 className="title-focalpoint">General</h3>
           <p className="paragraph">
             Focal Point automates and formalizes procurement best practices in a
             simple to use solution to develop strategies and plans for maximum
@@ -29,14 +31,21 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-doably">Goal</h3>
+          <h3 className="title-focalpoint">Challenge</h3>
+          <p className="paragraph">
+            Procurement managers use many different tools to get their job done
+            and save data. The variety of tools is confusing and time-consuming.
+          </p>
+        </div>
+        <div>
+          <h3 className="title-focalpoint">Goal</h3>
           <p className="paragraph">
             Create a product that helps procurement teams to control company
             budgets, pay easily, and track all company spends.
           </p>
         </div>
         <div>
-          <h3 className="title-doably">Team</h3>
+          <h3 className="title-focalpoint">Team</h3>
           <p className="paragraph">
             I worked in a cross-functional team. As the main UX/UI designer, I
             was involved in all phases of the project, from mapping out the
@@ -44,13 +53,13 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-doably">Responsibilities </h3>
+          <h3 className="title-focalpoint">Responsibilities </h3>
           <p className="paragraph">
             UX Design, Visual Design, Prototyping and Testing
           </p>
         </div>
         <div>
-          <h3 className="title-doably">
+          <h3 className="title-focalpoint">
             What I have learned from this project?
           </h3>
           <p className="paragraph">
@@ -60,7 +69,7 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-doably">Link to product</h3>
+          <h3 className="title-focalpoint">Link to product</h3>
           <a
             rel="noreferrer"
             className="link"

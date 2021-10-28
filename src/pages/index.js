@@ -15,13 +15,11 @@ const Main = () => (
           alt="A Gatsby astronaut"
           style={{ marginBottom: `1.45rem` }}
         />
-
         <h1 className="main-header">
           Hi, my name is Anastasiia and I’m a UX/UI designer with more than 4
           years of experience.
         </h1>
       </div>
-
       <p className="paragraph">
         <strong>
           Passionate about designing technologies to enrich people’s quality of
