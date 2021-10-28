@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Focalpoint = () => {
+  console.log("Hello World")
   return (
     <Layout>
       <div className="about-block">
