@@ -35,7 +35,7 @@ const Main = () => (
           target="_blank"
           to="https://mvpnow.studio/team"
         >
-          LeanSquad.
+          LeanSquad,
         </Link>{" "}
         I have focused on being a T-shaped UX/UI and Product designer.
       </p>
