@@ -591,76 +591,71 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-
 .about-img {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .list-item {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
+.list-item li {
+  color: #555555 !important;
+  font-weight: 100;
+}
 .front-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   margin-top: 40px;
 }
-
 .about-block {
   margin: 0 auto;
   max-width: 700px;
 }
-
 .main-header {
   font-size: 24px;
   line-height: 36px;
 }
-
 .paragraph-doably {
-  /* margin-top: 56px; */
   margin-bottom: 64px;
   font-size: 24px;
   text-align: center;
   color: #212121;
 }
-
 .paragraph {
   font-weight: 100;
 }
-
+.paragraph-margin {
+  margin-top: 24px;
+}
+.paragraph-bottom {
+  margin-bottom: 0;
+}
 .title-doably {
   margin: 0;
   color: #212121;
   font-size: 18px;
 }
-
 .subtitle-doably {
   margin: 0;
   margin-bottom: 8px;
   text-align: center;
 }
-
 .card {
   margin: 0;
   border: none;
 }
-
 .title-text {
   margin: 140px 0 80px 0;
   margin-left: 35px;
 }
-
 .smile {
   font-size: 75px;
   line-height: 35px;
 }
-
 .link {
   display: block;
   margin-top: 0.5rem;
@@ -670,29 +665,23 @@ pre tt:after {
   margin-bottom: 8px;
   color: #212121;
 }
-
 .card-link {
   text-decoration: none;
 }
-
 .card-link:hover .darken {
   color: #0b167b;
   text-decoration: underline;
 }
-
 .card-body {
   padding-top: 0px !important;
 }
-
 .subtitle-color {
   margin: 0;
   color: #555555;
 }
-
 #gatsby-focus-wrapper {
   position: relative;
 }
-
 .hover-link:hover {
   color: #0b167b;
 }
