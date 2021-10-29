@@ -697,6 +697,9 @@ pre tt:after {
 .hover-link:hover {
   color: #0b167b;
 }
+.competitive {
+  margin-top: 100px;
+}
 
 @media only screen and (max-width: 480px) {
   html {

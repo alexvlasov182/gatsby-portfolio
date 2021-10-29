@@ -80,6 +80,18 @@ const Focalpoint = () => {
             https://focalpointprocurement.com/features
           </a>
         </div>
+        <h2 className="paragraph-subtitle competitive">Competitive Analysis</h2>
+        <p className="paragraph">
+          At the initial stage, I conducted a SWOT analysis of our direct and
+          indirect competition. Then I assessed the key features and
+          functionality of competing applications in the context of our project.
+        </p>
+        <p className="paragraph">
+          I chose the opportunity to combine the team communication within each
+          project (comments, chat) with procurement functionalities such as: the
+          ability to request everything you need in one click, flexible request
+          forms form and milestones.
+        </p>
       </div>
     </Layout>
   )
