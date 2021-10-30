@@ -13,7 +13,7 @@ const Focalpoint = () => {
       </div>
       <div className="about-img">
         <StaticImage
-          src="../images/focalpoint-big.jpg"
+          src="../images/focalpoint-main-img.jpg"
           width={1140}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
@@ -80,7 +80,9 @@ const Focalpoint = () => {
             https://focalpointprocurement.com/features
           </a>
         </div>
-        <h2 className="paragraph-subtitle competitive">Competitive Analysis</h2>
+        <h2 className="paragraph-subtitle focalpoint-title">
+          Competitive Analysis
+        </h2>
         <p className="paragraph">
           At the initial stage, I conducted a SWOT analysis of our direct and
           indirect competition. Then I assessed the key features and
@@ -92,6 +94,25 @@ const Focalpoint = () => {
           ability to request everything you need in one click, flexible request
           forms form and milestones.
         </p>
+        <h2 className="paragraph-subtitle focalpoint-title">
+          Prioritization Plotting
+        </h2>
+        <p className="paragraph">
+          In order to build a successful and solid MVP for Focal Point, I had to
+          identify the most important problems. So, I’ve created a
+          prioritization matrix that shows the relative importance of a set of
+          items based on two weighted criteria - Priority and Effort.
+        </p>
+      </div>
+      <div className="about-img">
+        <StaticImage
+          src="../images/prioritization.png"
+          width={1140}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="A Gatsby astronaut"
+          style={{ marginBottom: `1.45rem` }}
+        />
       </div>
     </Layout>
   )
