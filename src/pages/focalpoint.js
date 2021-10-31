@@ -18,13 +18,12 @@ const sliderParams = {
 const Focalpoint = () => {
   return (
     <Layout>
+      {/* Main Title */}
       <section className="focalpoint-title">
         <h1 className="paragraph-focalpoint"> Focal Point</h1>
         <p className="subtitle-focalpoint">Tool for procurement management</p>
       </section>
-
       {/* Image FocalPoint */}
-
       <div className="about-img">
         <StaticImage
           src="../images/focalpoint-main-img.jpg"
@@ -170,6 +169,58 @@ const Focalpoint = () => {
           <SwiperSlide>
             <StaticImage
               src="../images/slide-2.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+        </Swiper>
+      </section>
+      {/* User Flow */}
+      <section className="user-flow">
+        <div className="user-flow-width">
+          <h2 className="paragraph-subtitle focalpoint-title">User Flow</h2>
+          <div>
+            <p className="paragraph">
+              It is important to figure out how the people we design for will
+              make the best use of this product. So, I decided to create a user
+              flow because it is easy to do and also easy to explain. <br /> I
+              divided our application into 10 panels, for which I created user
+              flows, there are a couple of them.
+            </p>
+          </div>
+          <div className="create">
+            1. I as a user want to create a new project.
+          </div>
+          <div className="know">
+            2. I as a user want to know if the supplier fits my project.
+          </div>
+        </div>
+
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          onSwiper={swiper => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          {...sliderParams}
+        >
+          <SwiperSlide>
+            <StaticImage
+              src="../images/user-flow-1.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/user-flow-2.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
