@@ -230,6 +230,60 @@ const Focalpoint = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+      {/* Wireframes */}
+      <section className="wireframes">
+        <div className="wireframes-width">
+          <h2 className="paragraph-subtitle focalpoint-title">User Flow</h2>
+          <div>
+            <p className="paragraph">
+              Before moving onto high fidelity wireframes, I wanted to get a
+              feel for what the core of the app would look like when put in
+              front of me. Our product manager and I have created wireframes in
+              Balsamiq in order to have a clearer idea of our future product.
+            </p>
+          </div>
+        </div>
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          onSwiper={swiper => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          {...sliderParams}
+        >
+          <SwiperSlide>
+            <StaticImage
+              src="../images/frame-1.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/frame-2.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/frame-3.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+        </Swiper>
+      </section>
     </Layout>
   )
 }
