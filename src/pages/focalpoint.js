@@ -233,7 +233,7 @@ const Focalpoint = () => {
       {/* Wireframes */}
       <section className="wireframes">
         <div className="wireframes-width">
-          <h2 className="paragraph-subtitle focalpoint-title">User Flow</h2>
+          <h2 className="paragraph-subtitle focalpoint-title">Wireframes</h2>
           <div>
             <p className="paragraph">
               Before moving onto high fidelity wireframes, I wanted to get a
