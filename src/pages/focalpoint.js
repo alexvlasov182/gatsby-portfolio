@@ -2,9 +2,20 @@ import * as React from "react"
 import Layout from "../components/layout"
 
 import { StaticImage } from "gatsby-plugin-image"
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper"
+import { Swiper, SwiperSlide } from "swiper/react"
+
+// import Swiper and modules styles
+import "swiper/css"
+import "swiper/css/navigation"
+import "swiper/css/pagination"
+import "swiper/css/scrollbar"
+const sliderParams = {
+  slidesPerView: "auto",
+  centeredSlides: true,
+}
 
 const Focalpoint = () => {
-  console.log("Hello World")
   return (
     <Layout>
       <div className="about-block">
@@ -99,7 +110,7 @@ const Focalpoint = () => {
         </h2>
         <p className="paragraph">
           In order to build a successful and solid MVP for Focal Point, I had to
-          identify the most important problems. So, I’ve created a
+          identify the most important problems. So, I have created a
           prioritization matrix that shows the relative importance of a set of
           items based on two weighted criteria - Priority and Effort.
         </p>
@@ -114,6 +125,45 @@ const Focalpoint = () => {
           style={{ marginBottom: `1.45rem` }}
         />
       </div>
+      <div className="about-block">
+        <h2 className="paragraph-subtitle focalpoint-title">Personas</h2>
+        <p className="paragraph">
+          The analysis of the in-depth interviews allowed me to create 2 user
+          archetypes, thanks to which I could better empathize with our
+          potential customers. During the further stages of designing, I often
+          referred to the figures of Kristin and Robert.
+        </p>
+      </div>
+      <Swiper
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        slidesPerView={3}
+        navigation
+        pagination={{ clickable: true }}
+        onSwiper={swiper => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
+        {...sliderParams}
+      >
+        <SwiperSlide>
+          <StaticImage
+            src="../images/slide-1.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <StaticImage
+            src="../images/slide-2.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </SwiperSlide>
+      </Swiper>
     </Layout>
   )
 }

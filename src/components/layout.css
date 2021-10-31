@@ -700,6 +700,11 @@ pre tt:after {
 .focalpoint-title {
   margin-top: 100px;
 }
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 @media only screen and (max-width: 480px) {
   html {
