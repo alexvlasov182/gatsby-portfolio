@@ -615,6 +615,14 @@ pre tt:after {
   margin: 0 auto;
   max-width: 700px;
 }
+.project-overview,
+.competitive,
+.prioritization-width,
+.personas-width,
+.focalpoint-title {
+  margin: 0 auto;
+  max-width: 700px;
+}
 .main-header {
   font-size: 24px;
   line-height: 36px;

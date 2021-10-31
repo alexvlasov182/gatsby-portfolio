@@ -18,10 +18,13 @@ const sliderParams = {
 const Focalpoint = () => {
   return (
     <Layout>
-      <div className="about-block">
+      <section className="focalpoint-title">
         <h1 className="paragraph-focalpoint"> Focal Point</h1>
         <p className="subtitle-focalpoint">Tool for procurement management</p>
-      </div>
+      </section>
+
+      {/* Image FocalPoint */}
+
       <div className="about-img">
         <StaticImage
           src="../images/focalpoint-main-img.jpg"
@@ -32,7 +35,8 @@ const Focalpoint = () => {
           style={{ marginBottom: `1.45rem` }}
         />
       </div>
-      <div className="about-block">
+      {/* Project overview */}
+      <section className="project-overview">
         <h2 className="paragraph-subtitle">Project overview</h2>
         <div>
           <h3 className="title-focalpoint">General</h3>
@@ -81,79 +85,100 @@ const Focalpoint = () => {
             https://focalpointprocurement.com/features
           </a>
         </div>
+      </section>
+      {/* Competitive Analysis */}
+      <section className="competitive">
         <h2 className="paragraph-subtitle focalpoint-title">
           Competitive Analysis
         </h2>
-        <p className="paragraph">
-          At the initial stage, I conducted a SWOT analysis of our direct and
-          indirect competition. Then I assessed the key features and
-          functionality of competing applications in the context of our project.
-        </p>
-        <p className="paragraph">
-          I chose the opportunity to combine the team communication within each
-          project (comments, chat) with procurement functionalities such as: the
-          ability to request everything you need in one click, flexible request
-          forms form and milestones.
-        </p>
-        <h2 className="paragraph-subtitle focalpoint-title">
-          Prioritization Plotting
-        </h2>
-        <p className="paragraph">
-          In order to build a successful and solid MVP for Focal Point, I had to
-          identify the most important problems. So, I have created a
-          prioritization matrix that shows the relative importance of a set of
-          items based on two weighted criteria - Priority and Effort.
-        </p>
-      </div>
-      <div className="about-img">
-        <StaticImage
-          src="../images/prioritization.png"
-          width={1140}
-          quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="A Gatsby astronaut"
-          style={{ marginBottom: `1.45rem` }}
-        />
-      </div>
-      <div className="about-block">
-        <h2 className="paragraph-subtitle focalpoint-title">Personas</h2>
-        <p className="paragraph">
-          The analysis of the in-depth interviews allowed me to create 2 user
-          archetypes, thanks to which I could better empathize with our
-          potential customers. During the further stages of designing, I often
-          referred to the figures of Kristin and Robert.
-        </p>
-      </div>
-      <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        onSwiper={swiper => console.log(swiper)}
-        onSlideChange={() => console.log("slide change")}
-        {...sliderParams}
-      >
-        <SwiperSlide>
+        <div>
+          <p className="paragraph">
+            At the initial stage, I conducted a SWOT analysis of our direct and
+            indirect competition. Then I assessed the key features and
+            functionality of competing applications in the context of our
+            project.
+          </p>
+        </div>
+        <div>
+          <p className="paragraph">
+            I chose the opportunity to combine the team communication within
+            each project (comments, chat) with procurement functionalities such
+            as: the ability to request everything you need in one click,
+            flexible request forms form and milestones.
+          </p>
+        </div>
+      </section>
+      {/* Prioritization Plotting */}
+      <section className="prioritization">
+        <div className="prioritization-width">
+          <h2 className="paragraph-subtitle focalpoint-title">
+            Prioritization Plotting
+          </h2>
+          <div>
+            <p className="paragraph">
+              In order to build a successful and solid MVP for Focal Point, I
+              had to identify the most important problems. So, I have created a
+              prioritization matrix that shows the relative importance of a set
+              of items based on two weighted criteria - Priority and Effort.
+            </p>
+          </div>
+        </div>
+        <div className="about-img">
           <StaticImage
-            src="../images/slide-1.png"
+            src="../images/prioritization.png"
             width={1140}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="A Gatsby astronaut"
             style={{ marginBottom: `1.45rem` }}
           />
-        </SwiperSlide>
-        <SwiperSlide>
-          <StaticImage
-            src="../images/slide-2.png"
-            width={1140}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
-        </SwiperSlide>
-      </Swiper>
+        </div>
+      </section>
+      {/* Personas */}
+      <section className="personas">
+        <div className="personas-width">
+          <h2 className="paragraph-subtitle focalpoint-title">Personas</h2>
+          <div>
+            <p className="paragraph">
+              The analysis of the in-depth interviews allowed me to create 2
+              user archetypes, thanks to which I could better empathize with our
+              potential customers. During the further stages of designing, I
+              often referred to the figures of Kristin and Robert.
+            </p>
+          </div>
+        </div>
+
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          onSwiper={swiper => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          {...sliderParams}
+        >
+          <SwiperSlide>
+            <StaticImage
+              src="../images/slide-1.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/slide-2.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+        </Swiper>
+      </section>
     </Layout>
   )
 }
