@@ -71,16 +71,6 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">
-            What I have learned from this project?
-          </h3>
-          <p className="paragraph">
-            This CRM system’s taught me to work with large databases. We have
-            automated the process of analyzing data on purchases of giant
-            companies. The project was successfully presented to customers.
-          </p>
-        </div>
-        <div>
           <h3 className="title-focalpoint">Link to product</h3>
           <a
             rel="noreferrer"
