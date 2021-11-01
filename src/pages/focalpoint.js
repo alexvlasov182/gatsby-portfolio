@@ -307,7 +307,7 @@ const Focalpoint = () => {
         >
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-1.png"
+              src="../images/ui-3.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -327,7 +327,7 @@ const Focalpoint = () => {
           </SwiperSlide>
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-3.png"
+              src="../images/ui-1.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
