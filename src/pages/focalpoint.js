@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import * as React from "react"
 import Layout from "../components/layout"
 
@@ -335,6 +336,32 @@ const Focalpoint = () => {
             />
           </SwiperSlide>
         </Swiper>
+      </section>
+      {/* Takeaways */}
+      <section className="takeaways">
+        <h2 className="paragraph-subtitle focalpoint-title">Takeaways</h2>
+        <div className="takeaways-width">
+          <p className="paragraph">
+            This project took nearly a year to ideate, design, test, and
+            implement. It was a huge learning experience for me and the entire
+            FocalPoint team.
+          </p>
+          <p className="paragraph">
+            In my opinion, the perfect motto for this project should be{" "}
+            <b>
+              “It’s easy to come up with design ideas, but it’s hard to solve
+              the right problem.”
+            </b>{" "}
+            It's important to take the time to research and interview users so
+            that you know exactly who you are creating for.
+          </p>
+          <p className="paragraph">
+            This CRM system’s taught me to work with large databases. We have
+            automated the process of analyzing data on purchases of giant
+            companies. The project was successfully presented to customers and
+            now is in use by large companies.
+          </p>
+        </div>
       </section>
     </Layout>
   )
