@@ -621,7 +621,8 @@ pre tt:after {
 .personas-width,
 .focalpoint-title,
 .user-flow-width,
-.wireframes-width {
+.wireframes-width,
+.screens-width {
   margin: 0 auto;
   max-width: 700px;
 }

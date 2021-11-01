@@ -284,6 +284,58 @@ const Focalpoint = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+      {/* UI screens */}
+      <section className="screens">
+        <h2 className="paragraph-subtitle focalpoint-title">UI screens</h2>
+        <div className="screens-width">
+          <p className="paragraph">
+            After a few more iterations, I designed the final screens with
+            Figma. I conducted A/B testings during the process to define the
+            design pattern, elements and colours. My aim was a clean, modern
+            look that helps users fulfil their goals quickly.
+          </p>
+        </div>
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          onSwiper={swiper => console.log(swiper)}
+          onSlideChange={() => console.log("slide change")}
+          {...sliderParams}
+        >
+          <SwiperSlide>
+            <StaticImage
+              src="../images/ui-1.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/ui-2.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/ui-3.png"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+        </Swiper>
+      </section>
     </Layout>
   )
 }
