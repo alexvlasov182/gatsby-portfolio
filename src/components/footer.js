@@ -1,17 +1,16 @@
-import * as React from 'react'
-import styled from '@emotion/styled'
-import { css } from '@emotion/react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import * as React from "react"
+import styled from "@emotion/styled"
+import { css } from "@emotion/react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
 const NavLink = styled(Link)`
   color: #222;
   font-size: 1rem;
-  font-weight: ${props => props.fontWeight || 'normal'};
+  font-weight: ${props => props.fontWeight || "normal"};
   line-height: 1;
-  margin: 0 0.5rem 0 0;
-  padding: 0.25rem;
-  text-decoration: underline;
+  margin: 0 56px 0 0;
+  text-decoration: none;
   color: #4f5abf;
 
   &.current-page {
@@ -37,7 +36,7 @@ const Footer = () => (
   >
     <nav css={css``}>
       <NavLink
-        className="hover-link"
+        className="hover-link-footer"
         target="_blank"
         to="https://www.linkedin.com/in/anastasiia-pyvovarova-a8b36216b/"
         activeClassName="current-page"
@@ -45,7 +44,7 @@ const Footer = () => (
         LinkedIn
       </NavLink>
       <NavLink
-        className="hover-link"
+        className="hover-link-footer"
         target="_blank"
         to="https://www.behance.net/anastasiya503d2"
         activeClassName="current-page"
@@ -53,7 +52,7 @@ const Footer = () => (
         Behance
       </NavLink>
       <NavLink
-        className="hover-link"
+        className="hover-link-footer"
         target="_blank"
         to="https://dribbble.com/leansquad"
         activeClassName="current-page"

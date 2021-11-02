@@ -28,7 +28,7 @@ const Main = () => (
         <br />I grew up as a multi-disciplinary designer with a broad approach.
         But for the last 4 years with{" "}
         <Link
-          className="hover-link"
+          className="hover-leansquad"
           rel="noreferrer"
           target="_blank"
           to="https://mvpnow.studio/team"

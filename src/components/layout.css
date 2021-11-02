@@ -50,14 +50,71 @@ progress {
 template {
   display: none;
 }
+.logo:hover {
+  color: #5f96bc;
+}
 a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  color: #4f5abf;
+  transition: 0.3s;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.hover-link {
+  color: #131314;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+.hover-link::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  content: "";
+  opacity: 0;
+  -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+  -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+  transition: height 0.3s, opacity 0.3s, transform 0.3s;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.hover-link-footer,
+.link-focalpoint {
+  transition: 0.3s;
+}
+.hover-link-footer:hover,
+.link-focalpoint:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+}
+.hover-link:hover {
+  position: relative;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  color: #212121;
+}
+.hover-link:hover::after {
+  height: 3px;
+  opacity: 1;
+  background-color: #5f96bc;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  transform: translateY(0px);
+}
+.hover-leansquad {
+  color: #4f5abf;
+  transition: 0.3s;
+}
+.hover-leansquad:hover {
+  color: #5f96bc;
+  text-decoration: underline;
+  transition: 0.3s;
 }
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
@@ -694,11 +751,11 @@ pre tt:after {
   color: #212121;
 }
 .card-link {
-  text-decoration: none;
+  transition: 0.3s;
 }
 .card-link:hover .darken {
-  color: #0b167b;
-  text-decoration: underline;
+  color: #5f96bc;
+  transition: 0.3s;
 }
 .card-body {
   padding-top: 0px;
@@ -709,9 +766,6 @@ pre tt:after {
 }
 #gatsby-focus-wrapper {
   position: relative;
-}
-.hover-link:hover {
-  color: #0b167b;
 }
 .focalpoint-title {
   margin-top: 100px;
@@ -726,13 +780,8 @@ pre tt:after {
   position: fixed;
   bottom: 40px;
   right: 40px;
-
   z-index: 2;
   cursor: pointer;
-}
-.scroll-to-top img svg {
-  width: 48px;
-  height: 48px;
 }
 
 @media only screen and (max-width: 480px) {

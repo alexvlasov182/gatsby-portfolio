@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout"
+import ScrollToTop from "../components/ScrollToTop"
 
 import { StaticImage } from "gatsby-plugin-image"
 
@@ -67,6 +68,7 @@ const Doably = () => {
           </a>
         </div>
       </div>
+      <ScrollToTop />
     </Layout>
   )
 }

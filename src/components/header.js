@@ -9,17 +9,9 @@ const NavLink = styled(Link)`
   font-size: 1rem;
   font-weight: ${props => props.fontWeight || "normal"};
   line-height: 1;
-  margin: 0 0.5rem 0 0;
-  padding: 0.25rem;
-  text-decoration: none;
+  margin: 0 56px 0 0;
 
-  &.current-page {
-    border-bottom: 2px solid #222;
-    color: #4f5abf;
-    &:hover {
-      text-decoration: none;
-    }
-  }
+  text-decoration: none;
 
   &:last-of-type {
     margin-right: 0;
@@ -37,8 +29,8 @@ const Header = () => (
       height: 72px;
     `}
   >
-    <NavLink className="hover-link" to="/" fontWeight="bold">
-      Anastasiia Pivovarova
+    <NavLink className="logo" to="/" fontWeight="bold">
+      Anastasiia Vlasova
     </NavLink>
     <nav
       css={css`

@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
 import "bootstrap/dist/css/bootstrap.min.css"
 import * as React from "react"
 import { Link } from "gatsby"
-import { Container, Card, Button, Col, Row } from "react-bootstrap"
+import { Container, Card, Col, Row } from "react-bootstrap"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
