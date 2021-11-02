@@ -721,6 +721,19 @@ pre tt:after {
   align-items: center;
   justify-content: center;
 }
+/* Scroll to top */
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor: pointer;
+}
+.scroll-to-top img {
+  width: 100%;
+}
 
 @media only screen and (max-width: 480px) {
   html {

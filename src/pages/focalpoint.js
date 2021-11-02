@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper"
 import { Swiper, SwiperSlide } from "swiper/react"
+import ScrollToTop from "../components/ScrollToTop"
 
 // import Swiper and modules styles
 import "swiper/css"
@@ -21,6 +22,7 @@ const Focalpoint = () => {
     <Layout>
       {/* Main Title */}
       <section className="focalpoint-title">
+        <div className="header"></div>
         <h1 className="paragraph-focalpoint"> Focal Point</h1>
         <p className="subtitle-focalpoint">Tool for procurement management</p>
       </section>
@@ -363,6 +365,7 @@ const Focalpoint = () => {
           </p>
         </div>
       </section>
+      <ScrollToTop />
     </Layout>
   )
 }
