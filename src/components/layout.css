@@ -698,9 +698,6 @@ pre tt:after {
   color: #212121;
   margin-bottom: 24px;
 }
-.focalpoint-title {
-  margin-top: 100px;
-}
 .mb-8 {
   margin-bottom: 8px;
 }
@@ -709,13 +706,15 @@ pre tt:after {
 .competitive,
 .prioritization-width,
 .personas-width,
-.focalpoint-title,
 .user-flow-width,
 .wireframes-width,
 .screens-width,
 .takeaways-width {
   margin: 0 auto;
   max-width: 700px;
+}
+.focalpoint-title {
+  margin-top: 100px;
 }
 .paragraph-doably,
 .paragraph-focalpoint {

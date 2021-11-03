@@ -103,6 +103,28 @@ const SecondPage = () => (
             </Card>
           </Link>
         </Col>
+        <Col lg={6}>
+          <Link className="card-link" to="/smartcart">
+            <Card>
+              <StaticImage
+                src="../images/smart-work.png"
+                width={548}
+                height={424}
+                quality={100}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="A Gatsby astronaut"
+              />
+              <Card.Body>
+                <Card.Title className="text-center darken">
+                  SmartCart
+                </Card.Title>
+                <Card.Text className="text-center subtitle-color">
+                  Tool that helps people eat healthier
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Link>
+        </Col>
       </Row>
     </Container>
   </Layout>
