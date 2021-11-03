@@ -77,7 +77,7 @@ const SmartCart = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Responsibilities </h3>
+          <h3 className="title-focalpoint smart-cart">Responsibilities </h3>
           <ul className="list-item">
             <li>- Product strategy,</li>
             <li>- User research & Analysis,</li>
@@ -88,7 +88,7 @@ const SmartCart = () => {
           </ul>
         </div>
         <div>
-          <h3 className="title-focalpoint mb-8">Link to product</h3>
+          <h3 className="title-focalpoint mb-8 mt-24">Link to product</h3>
           <a rel="noreferrer" className="link-focalpoint" target="_blank">
             no link yet
           </a>
