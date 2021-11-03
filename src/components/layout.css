@@ -650,6 +650,34 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+/* My CSS code */
+
+/* Index.js */
+.front-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.about-block {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.main-header {
+  font-size: 24px;
+  line-height: 36px;
+}
+.paragraph-margin {
+  margin-top: 24px;
+}
+.paragraph-bottom {
+  margin-bottom: 0;
+}
+/* Focalpoint part */
+.create,
+.know {
+  color: #212121;
+}
 .about-img {
   display: flex;
   align-items: center;
@@ -664,16 +692,19 @@ pre tt:after {
   color: #555555;
   font-weight: 100;
 }
-.front-block {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
+.paragraph-subtitle {
+  font-size: 28px;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 24px;
 }
-.about-block {
-  margin: 0 auto;
-  max-width: 700px;
+.focalpoint-title {
+  margin-top: 100px;
 }
+.mb-8 {
+  margin-bottom: 8px;
+}
+/* For section */
 .project-overview,
 .competitive,
 .prioritization-width,
@@ -686,14 +717,6 @@ pre tt:after {
   margin: 0 auto;
   max-width: 700px;
 }
-.create,
-.know {
-  color: #212121;
-}
-.main-header {
-  font-size: 24px;
-  line-height: 36px;
-}
 .paragraph-doably,
 .paragraph-focalpoint {
   font-size: 28px;
@@ -704,20 +727,8 @@ pre tt:after {
   margin-top: 80px;
   margin-bottom: 4px;
 }
-.paragraph-subtitle {
-  font-size: 28px;
-  text-align: center;
-  color: #212121;
-  margin-bottom: 24px;
-}
 .paragraph {
   font-weight: 100;
-}
-.paragraph-margin {
-  margin-top: 24px;
-}
-.paragraph-bottom {
-  margin-bottom: 0;
 }
 .title-doably,
 .title-focalpoint {
@@ -731,6 +742,7 @@ pre tt:after {
   margin-bottom: 8px;
   text-align: center;
 }
+/* Work page */
 .card {
   margin: 0;
   border: none;
@@ -765,15 +777,6 @@ pre tt:after {
 .subtitle-color {
   margin: 0;
   color: #555555;
-}
-#gatsby-focus-wrapper {
-  position: relative;
-}
-.focalpoint-title {
-  margin-top: 100px;
-}
-.mb-8 {
-  margin-bottom: 8px;
 }
 /* Swiper Slider */
 .swiper-slide {
