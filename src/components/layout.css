@@ -61,6 +61,7 @@ a:hover {
   outline-width: 0;
   text-decoration: none;
   transition: 0.3s;
+  color: #5f96bc;
 }
 .hover-link {
   color: #131314;
