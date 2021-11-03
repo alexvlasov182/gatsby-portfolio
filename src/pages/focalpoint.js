@@ -77,14 +77,14 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Link to product</h3>
+          <h3 className="title-focalpoint mb-8">Link to product</h3>
           <a
             rel="noreferrer"
             className="link-focalpoint"
             target="_blank"
-            href="https://focalpointprocurement.com/features"
+            href="https://www.getfocalpoint.com"
           >
-            https://focalpointprocurement.com/features
+            https://www.getfocalpoint.com
           </a>
         </div>
       </section>

@@ -86,6 +86,7 @@ a:hover {
 .hover-link-footer,
 .link-focalpoint {
   transition: 0.3s;
+  color: #4f5abf;
 }
 .hover-link-footer:hover,
 .link-focalpoint:hover {
@@ -770,6 +771,10 @@ pre tt:after {
 .focalpoint-title {
   margin-top: 100px;
 }
+.mb-8 {
+  margin-bottom: 8px;
+}
+/* Swiper Slider */
 .swiper-slide {
   display: flex;
   align-items: center;
