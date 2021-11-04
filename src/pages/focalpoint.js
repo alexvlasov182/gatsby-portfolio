@@ -41,7 +41,7 @@ const Focalpoint = () => {
       <section className="project-overview">
         <h2 className="paragraph-subtitle">Project overview</h2>
         <div>
-          <h3 className="title-focalpoint">General</h3>
+          <h3 className="title-h3">General</h3>
           <p className="paragraph">
             Focal Point automates and formalizes procurement best practices in a
             simple to use solution to develop strategies and plans for maximum
@@ -49,21 +49,21 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Challenge</h3>
+          <h3 className="title-h3">Challenge</h3>
           <p className="paragraph">
             Procurement managers use many different tools to get their job done
             and save data. The variety of tools is confusing and time-consuming.
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Goal</h3>
+          <h3 className="title-h3">Goal</h3>
           <p className="paragraph">
             Create a product that helps procurement teams to control company
             budgets, pay easily, and track all company spends.
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Team</h3>
+          <h3 className="title-h3">Team</h3>
           <p className="paragraph">
             I worked in a cross-functional team. As the main UX/UI designer, I
             was involved in all phases of the project, from mapping out the
@@ -71,13 +71,13 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Responsibilities </h3>
+          <h3 className="title-h3">Responsibilities </h3>
           <p className="paragraph">
             UX Design, Visual Design, Prototyping and Testing
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint mb-8">Link to product</h3>
+          <h3 className="title-h3 mb-8">Link to product</h3>
           <a
             rel="noreferrer"
             className="link-focalpoint"

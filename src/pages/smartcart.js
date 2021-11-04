@@ -43,14 +43,14 @@ const SmartCart = () => {
       <section className="project-overview">
         <h2 className="paragraph-subtitle">Project overview</h2>
         <div>
-          <h3 className="title-focalpoint">General</h3>
+          <h3 className="title-h3">General</h3>
           <p className="paragraph">
             Smart cart is a tool that helps people eat healthier and buy food
             based on their preferences.
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Challenge</h3>
+          <h3 className="title-h3">Challenge</h3>
           <p className="paragraph">
             Since people use our app during shopping and don’t have much time to
             understand how it works, we need to keep the design simple and cut
@@ -60,7 +60,7 @@ const SmartCart = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Goal</h3>
+          <h3 className="title-h3">Goal</h3>
           <p className="paragraph">
             Create an application that helps users read information about all
             products in a few clicks. Encourage people to revise their shopping
@@ -68,7 +68,7 @@ const SmartCart = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint">Team</h3>
+          <h3 className="title-h3">Team</h3>
           <p className="paragraph">
             This application was created as a practical task for students. I was
             the only designer on the project, so my responsibilities included
@@ -77,7 +77,7 @@ const SmartCart = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint smart-cart">Responsibilities </h3>
+          <h3 className="title-h3 smart-cart">Responsibilities </h3>
           <ul className="list-item">
             <li>Product strategy,</li>
             <li>User research & Analysis,</li>
@@ -88,7 +88,7 @@ const SmartCart = () => {
           </ul>
         </div>
         <div>
-          <h3 className="title-focalpoint mb-8 mt-24">Link to product</h3>
+          <h3 className="title-h3 mb-8 mt-24">Link to product</h3>
           <a rel="noreferrer" className="link-focalpoint" target="_blank">
             no link yet
           </a>
@@ -107,7 +107,7 @@ const SmartCart = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-focalpoint mb-24">What I have learned:</h3>
+          <h3 className="title-h3 mb-24">What I have learned:</h3>
           <ul className="list-item">
             <li>
               People with food intolerance struggle to decide what and where to
