@@ -21,7 +21,7 @@ const SmartCart = () => {
   return (
     <Layout>
       {/* Main Title */}
-      <section className="focalpoint-title">
+      <section className="all-project-title">
         <div className="header"></div>
         <h1 className="paragraph-focalpoint">Smart cart</h1>
         <p className="subtitle-focalpoint">
@@ -96,31 +96,43 @@ const SmartCart = () => {
       </section>
       {/* Competitive Analysis */}
       <section className="competitive">
-        <h2 className="paragraph-subtitle focalpoint-title">
-          Competitive Analysis
+        <h2 className="paragraph-subtitle all-project-title">
+          Research & Problem definition
         </h2>
         <div>
           <p className="paragraph">
-            At the initial stage, I conducted a SWOT analysis of our direct and
-            indirect competition. Then I assessed the key features and
-            functionality of competing applications in the context of our
-            project.
+            In order to get to know the problems and needs of our users, I
+            conducted 10 in-depth interviews. I wanted to get to know our target
+            group better, understand its needs and concerns.
           </p>
         </div>
         <div>
-          <p className="paragraph">
-            I chose the opportunity to combine the team communication within
-            each project (comments, chat) with procurement functionalities such
-            as: the ability to request everything you need in one click,
-            flexible request forms form and milestones.
-          </p>
+          <h3 className="title-focalpoint mb-24">What I have learned:</h3>
+          <ul className="list-item">
+            <li>
+              People with food intolerance struggle to decide what and where to
+              eat on a daily basis.
+            </li>
+            <li>
+              Users use multiple blogs, websites to find the products and
+              recipes they need and can eat.
+            </li>
+            <li>
+              People usually buy extra food when they don't have a shopping
+              list.
+            </li>
+            <li>
+              It's easier to give up an unhealthy product when you know how to
+              replace it.
+            </li>
+          </ul>
         </div>
       </section>
 
       {/* Personas */}
       <section className="personas">
         <div className="personas-width">
-          <h2 className="paragraph-subtitle focalpoint-title">Personas</h2>
+          <h2 className="paragraph-subtitle all-project-title">Personas</h2>
           <div>
             <p className="paragraph">
               The analysis of the in-depth interviews allowed me to create 2
@@ -134,7 +146,7 @@ const SmartCart = () => {
       {/* User Flow */}
       <section className="user-flow">
         <div className="user-flow-width">
-          <h2 className="paragraph-subtitle focalpoint-title">User Flow</h2>
+          <h2 className="paragraph-subtitle all-project-title">User Flow</h2>
           <div>
             <p className="paragraph">
               It is important to figure out how the people we design for will
@@ -155,7 +167,7 @@ const SmartCart = () => {
       {/* Wireframes */}
       <section className="wireframes">
         <div className="wireframes-width">
-          <h2 className="paragraph-subtitle focalpoint-title">Wireframes</h2>
+          <h2 className="paragraph-subtitle all-project-title">Wireframes</h2>
           <div>
             <p className="paragraph">
               Before moving onto high fidelity wireframes, I wanted to get a
@@ -208,7 +220,7 @@ const SmartCart = () => {
       </section>
       {/* UI screens */}
       <section className="screens">
-        <h2 className="paragraph-subtitle focalpoint-title">UI screens</h2>
+        <h2 className="paragraph-subtitle all-project-title">UI screens</h2>
         <div className="screens-width">
           <p className="paragraph">
             After a few more iterations, I designed the final screens with
@@ -220,7 +232,7 @@ const SmartCart = () => {
       </section>
       {/* Takeaways */}
       <section className="takeaways">
-        <h2 className="paragraph-subtitle focalpoint-title">Takeaways</h2>
+        <h2 className="paragraph-subtitle all-project-title">Takeaways</h2>
         <div className="takeaways-width">
           <p className="paragraph">
             This project took nearly a year to ideate, design, test, and
