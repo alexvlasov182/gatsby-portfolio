@@ -549,7 +549,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: 0;
 }
 ol li {
   padding-left: 0;
@@ -684,13 +684,14 @@ pre tt:after {
   justify-content: center;
 }
 .list-item {
-  list-style-type: none;
+  list-style-type: disc;
   padding: 0;
   margin: 0;
 }
 .list-item li {
   color: #555555;
   font-weight: 100;
+  margin-left: 32px;
 }
 .paragraph-subtitle {
   font-size: 28px;

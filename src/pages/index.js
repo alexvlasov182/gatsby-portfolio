@@ -44,11 +44,11 @@ const Main = () => (
         experience working <br /> with:
       </p>
       <ul className="list-item">
-        <li>- Creating journey maps, personas and wireframes,</li>
-        <li>- UX research and testing,</li>
-        <li>- Information architecture,</li>
-        <li>- Style guides and atomic design systems,</li>
-        <li> - Design concepts, prototypes.</li>
+        <li>Creating journey maps, personas and wireframes,</li>
+        <li>UX research and testing,</li>
+        <li>Information architecture,</li>
+        <li>Style guides and atomic design systems,</li>
+        <li>Design concepts, prototypes.</li>
       </ul>
       <p className="paragraph paragraph-margin">
         When it comes to work, my motto is `Simple is better`. Therefore, I

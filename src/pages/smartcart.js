@@ -79,12 +79,12 @@ const SmartCart = () => {
         <div>
           <h3 className="title-focalpoint smart-cart">Responsibilities </h3>
           <ul className="list-item">
-            <li>- Product strategy,</li>
-            <li>- User research & Analysis,</li>
-            <li>- Persona creation,</li>
-            <li>- MVP definition,</li>
-            <li> - Wireframes,</li>
-            <li> - UI Design & Prototyping.</li>
+            <li>Product strategy,</li>
+            <li>User research & Analysis,</li>
+            <li>Persona creation,</li>
+            <li>MVP definition,</li>
+            <li>Wireframes,</li>
+            <li>UI Design & Prototyping.</li>
           </ul>
         </div>
         <div>
