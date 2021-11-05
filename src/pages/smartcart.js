@@ -3,19 +3,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 
 import { StaticImage } from "gatsby-plugin-image"
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper"
-import { Swiper, SwiperSlide } from "swiper/react"
 import ScrollToTop from "../components/ScrollToTop"
-
-// import Swiper and modules styles
-import "swiper/css"
-import "swiper/css/navigation"
-import "swiper/css/pagination"
-import "swiper/css/scrollbar"
-const sliderParams = {
-  slidesPerView: "auto",
-  centeredSlides: true,
-}
 
 const SmartCart = () => {
   return (
@@ -135,12 +123,28 @@ const SmartCart = () => {
           <h2 className="paragraph-subtitle all-project-title">Personas</h2>
           <div>
             <p className="paragraph">
-              The analysis of the in-depth interviews allowed me to create 2
-              user archetypes, thanks to which I could better empathize with our
-              potential customers. During the further stages of designing, I
-              often referred to the figures of Kristin and Robert.
+              I've studied about the potential users by doing a user research,
+              but to delve deeper and better understand our potential users, I
+              created two personas.
             </p>
           </div>
+          <div>
+            <p className="paragraph">
+              The information about each persona focused on its goals and
+              frustrations with the product as well as their interaction with
+              it, which drastically ыaffected my design decisions.
+            </p>
+          </div>
+        </div>
+        <div className="about-img">
+          <StaticImage
+            src="../images/persons-smartcart.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
         </div>
       </section>
       {/* User Flow */}
@@ -177,46 +181,6 @@ const SmartCart = () => {
             </p>
           </div>
         </div>
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          onSwiper={swiper => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          {...sliderParams}
-        >
-          <SwiperSlide>
-            <StaticImage
-              src="../images/frame-1.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/frame-2.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/frame-3.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-        </Swiper>
       </section>
       {/* UI screens */}
       <section className="screens">

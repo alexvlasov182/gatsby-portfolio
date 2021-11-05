@@ -84,6 +84,28 @@ const SecondPage = () => (
           </Link>
         </Col>
         <Col lg={6}>
+          <Link className="card-link" to="/smartcart">
+            <Card>
+              <StaticImage
+                src="../images/smart-cart-work.png"
+                width={548}
+                height={424}
+                quality={100}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="A Gatsby astronaut"
+              />
+              <Card.Body>
+                <Card.Title className="text-center darken">
+                  Smart Cart
+                </Card.Title>
+                <Card.Text className="text-center subtitle-color">
+                  Tool that helps users to choose and buy healthy food
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Link>
+        </Col>
+        <Col lg={6}>
           <Link className="card-link" to="/mvp">
             <Card>
               <StaticImage
@@ -98,28 +120,6 @@ const SecondPage = () => (
                 <Card.Title className="text-center darken">MVP Now</Card.Title>
                 <Card.Text className="text-center subtitle-color">
                   No code platform
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
-        </Col>
-        <Col lg={6}>
-          <Link className="card-link" to="/smartcart">
-            <Card>
-              <StaticImage
-                src="../images/smart-work.png"
-                width={548}
-                height={424}
-                quality={100}
-                formats={["AUTO", "WEBP", "AVIF"]}
-                alt="A Gatsby astronaut"
-              />
-              <Card.Body>
-                <Card.Title className="text-center darken">
-                  SmartCart
-                </Card.Title>
-                <Card.Text className="text-center subtitle-color">
-                  Tool that helps people eat healthier
                 </Card.Text>
               </Card.Body>
             </Card>
