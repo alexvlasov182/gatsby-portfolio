@@ -153,19 +153,24 @@ const SmartCart = () => {
           <h2 className="paragraph-subtitle all-project-title">User Flow</h2>
           <div>
             <p className="paragraph">
-              It is important to figure out how the people we design for will
-              make the best use of this product. So, I decided to create a user
-              flow because it is easy to do and also easy to explain. <br /> I
-              divided our application into 10 panels, for which I created user
-              flows, there are a couple of them.
+              I've created a user flow diagram to map every step of the user
+              interaction required to achieve the main goal of this app:{" "}
+              <b>
+                "As a user, I want to choose and buy healthy foods that meet my
+                goals.”
+              </b>
             </p>
           </div>
-          <div className="create">
-            1. I as a user want to create a new project.
-          </div>
-          <div className="know">
-            2. I as a user want to know if the supplier fits my project.
-          </div>
+        </div>
+        <div className="about-img">
+          <StaticImage
+            src="../images/userfolw-smartcart.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
         </div>
       </section>
       {/* Wireframes */}
@@ -174,12 +179,22 @@ const SmartCart = () => {
           <h2 className="paragraph-subtitle all-project-title">Wireframes</h2>
           <div>
             <p className="paragraph">
-              Before moving onto high fidelity wireframes, I wanted to get a
-              feel for what the core of the app would look like when put in
-              front of me. Our product manager and I have created wireframes in
-              Balsamiq in order to have a clearer idea of our future product.
+              I usually start the design process with low fidelity wireframes.
+              This is the way I iterate through many design options quickly.
+              Whit my wireframes I was able to clearly define the basic features
+              and main user journey of the app.
             </p>
           </div>
+        </div>
+        <div className="about-img">
+          <StaticImage
+            src="../images/wireframes-smartcart.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
         </div>
       </section>
       {/* UI screens */}
@@ -187,11 +202,26 @@ const SmartCart = () => {
         <h2 className="paragraph-subtitle all-project-title">UI screens</h2>
         <div className="screens-width">
           <p className="paragraph">
-            After a few more iterations, I designed the final screens with
-            Figma. I conducted A/B testings during the process to define the
-            design pattern, elements and colours. My aim was a clean, modern
-            look that helps users fulfil their goals quickly.
+            On the basis of successive iterations of low fidelity mockups, I
+            designed the UI screens for Smart Cart.
           </p>
+        </div>
+        <div className="screens-width">
+          <p className="paragraph">
+            As a first part of the UI design process, I experimented with
+            different colours and styles. I tried to focus on colours and visual
+            elements which can distinct our brand from other apps.
+          </p>
+        </div>
+        <div className="about-img">
+          <StaticImage
+            src="../images/uiscreens-smartcart.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
         </div>
       </section>
       {/* Takeaways */}
@@ -199,24 +229,16 @@ const SmartCart = () => {
         <h2 className="paragraph-subtitle all-project-title">Takeaways</h2>
         <div className="takeaways-width">
           <p className="paragraph">
-            This project took nearly a year to ideate, design, test, and
-            implement. It was a huge learning experience for me and the entire
-            FocalPoint team.
+            Despite the fact that I was creating this project as a practice, I
+            wanted it to solve business and user problems. So, in my opinion, my
+            biggest challenge was to create not just a beautiful picture, but
+            also a useful application.
           </p>
           <p className="paragraph">
-            In my opinion, the perfect motto for this project should be{" "}
-            <b>
-              “It’s easy to come up with design ideas, but it’s hard to solve
-              the right problem.”
-            </b>{" "}
-            It's important to take the time to research and interview users so
-            that you know exactly who you are creating for.
-          </p>
-          <p className="paragraph">
-            This CRM system’s taught me to work with large databases. We have
-            automated the process of analyzing data on purchases of giant
-            companies. The project was successfully presented to customers and
-            now is in use by large companies.
+            This project taught me never to underestimate design conventions.
+            Creating something new or different is exciting, especially from a
+            designer's point of view, but{" "}
+            <b> constant testing is absolutely crucial for success.</b>
           </p>
         </div>
       </section>
