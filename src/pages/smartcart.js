@@ -138,7 +138,7 @@ const SmartCart = () => {
         </div>
         <div className="about-img">
           <StaticImage
-            src="../images/persons-smartcart.png"
+            src="../images/personas-smartcart.png"
             width={1140}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
