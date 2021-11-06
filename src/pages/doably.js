@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import * as React from "react"
 import Layout from "../components/layout"
 import ScrollToTop from "../components/ScrollToTop"
@@ -93,23 +94,45 @@ const Doably = () => {
       {/* Competitive Analysis */}
       <section className="competitive">
         <h2 className="paragraph-subtitle all-project-title">
-          Competitive Analysis
+          Research & Problem definition
         </h2>
         <div>
           <p className="paragraph">
-            At the initial stage, I conducted a SWOT analysis of our direct and
-            indirect competition. Then I assessed the key features and
-            functionality of competing applications in the context of our
-            project.
+            We used Lean UX principles in the development of "Doably" to focus
+            on users and their needs at each phase of the design process. At
+            first, we had to formulate and validate the hypothesis:
           </p>
         </div>
         <div>
           <p className="paragraph">
-            I chose the opportunity to combine the team communication within
-            each project (comments, chat) with procurement functionalities such
-            as: the ability to request everything you need in one click,
-            flexible request forms form and milestones.
+            <b>
+              {" "}
+              “We believe that clear statement of daily tasks and analysis of
+              the achievement of goals for our users will make users feel more
+              productive and motivated”
+            </b>
           </p>
+        </div>
+        <div>
+          <p className="paragraph">
+            We conducted a user survey to prove this hypothesis and gain user
+            insight. Results:
+          </p>
+          <ul className="list-item">
+            <li className="doably-mt-8">
+              75% said they would feel more effective if they saw results of
+              their work.
+            </li>
+            <li className="doably-mt-8">
+              60% agree that it is easier to combine work and personal life if
+              you book time for yourself in advance.
+            </li>
+            <li className="doably-mt-8">
+              80% said they would like to share some information or tasks with
+              their family or team. It’s also a good way not to lose useful
+              contacts.
+            </li>
+          </ul>
         </div>
       </section>
       {/* Prioritization Plotting */}

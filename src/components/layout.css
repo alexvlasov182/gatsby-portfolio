@@ -803,6 +803,10 @@ pre tt:after {
   z-index: 2;
   cursor: pointer;
 }
+/* Doably */
+.doably-mt-8 {
+  margin-top: 10px;
+}
 
 @media only screen and (max-width: 480px) {
   html {
