@@ -313,7 +313,7 @@ const Srecwriter = () => {
         <h2 className="paragraph-subtitle all-project-title">Takeaways</h2>
         <div className="takeaways-width">
           <p className="paragraph">
-            In this case many features weren't displayed. There were hundreds
+            In this case many features weren’t displayed. There were hundreds
             and hundreds of screens and designs, innumerable iterations,
             hundreds of hours of research and user testing.
           </p>
