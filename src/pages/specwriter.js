@@ -265,12 +265,18 @@ const Srecwriter = () => {
         <h2 className="paragraph-subtitle all-project-title">UI screens</h2>
         <div className="screens-width">
           <p className="paragraph">
-            After a few more iterations, I designed the final screens with
-            Figma. I conducted A/B testings during the process to define the
-            design pattern, elements and colours. My aim was a clean, modern
-            look that helps users fulfil their goals quickly.
+            Before creating the UI screens, <b>we created a design system.</b>{" "}
+            This helped to increase the number of components used in the system
+            to achieve ease of use and save development time.
           </p>
         </div>
+        <div className="screens-width">
+          <p className="paragraph">
+            The next step was to create UI screens. The previously created
+            components helped us save time during the prototyping phase
+          </p>
+        </div>
+
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={3}
@@ -282,7 +288,7 @@ const Srecwriter = () => {
         >
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-3.png"
+              src="../images/specwriter-ui-2.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -292,17 +298,7 @@ const Srecwriter = () => {
           </SwiperSlide>
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-2.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/ui-1.png"
+              src="../images/specwriter-ui-1.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -317,24 +313,20 @@ const Srecwriter = () => {
         <h2 className="paragraph-subtitle all-project-title">Takeaways</h2>
         <div className="takeaways-width">
           <p className="paragraph">
-            This project took nearly a year to ideate, design, test, and
-            implement. It was a huge learning experience for me and the entire
-            FocalPoint team.
+            In this case many features weren't displayed. There were hundreds
+            and hundreds of screens and designs, innumerable iterations,
+            hundreds of hours of research and user testing.
           </p>
           <p className="paragraph">
-            In my opinion, the perfect motto for this project should be{" "}
+            The most important lesson from this project was that{" "}
             <b>
-              “It’s easy to come up with design ideas, but it’s hard to solve
-              the right problem.”
+              {" "}
+              research and correct problem definition is a must, especially when
+              building an MVP. <br />
             </b>{" "}
-            It’s important to take the time to research and interview users so
-            that you know exactly who you are creating for.
-          </p>
-          <p className="paragraph">
-            This CRM system’s taught me to work with large databases. We have
-            automated the process of analyzing data on purchases of giant
-            companies. The project was successfully presented to customers and
-            now is in use by large companies.
+            Clients want to see many features in their projects, but it is very
+            important <b> to make all design processes step by step</b>, without
+            missing a single one, <s>even</s> especially for MVP.
           </p>
         </div>
       </section>
