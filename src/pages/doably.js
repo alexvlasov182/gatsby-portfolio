@@ -252,10 +252,16 @@ const Doably = () => {
           <h2 className="paragraph-subtitle all-project-title">Wireframes</h2>
           <div>
             <p className="paragraph">
-              Before moving onto high fidelity wireframes, I wanted to get a
-              feel for what the core of the app would look like when put in
-              front of me. Our product manager and I have created wireframes in
-              Balsamiq in order to have a clearer idea of our future product.
+              Based on User Flows, we designed the first low-fidelity mockups.
+              Usability tests carried out on them allowed to identify elements
+              that are non-intuitive and require improvement.
+            </p>
+          </div>
+          <div>
+            <p className="paragraph">
+              In addition, it helped us to be on the same page with our
+              customers without spending a lot of time developing high-fidality
+              screens.
             </p>
           </div>
         </div>
@@ -270,7 +276,7 @@ const Doably = () => {
         >
           <SwiperSlide>
             <StaticImage
-              src="../images/frame-1.png"
+              src="../images/doably-wireframes-1.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -280,17 +286,7 @@ const Doably = () => {
           </SwiperSlide>
           <SwiperSlide>
             <StaticImage
-              src="../images/frame-2.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/frame-3.png"
+              src="../images/doably-wireframes-2.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -305,10 +301,11 @@ const Doably = () => {
         <h2 className="paragraph-subtitle all-project-title">UI screens</h2>
         <div className="screens-width">
           <p className="paragraph">
-            After a few more iterations, I designed the final screens with
-            Figma. I conducted A/B testings during the process to define the
-            design pattern, elements and colours. My aim was a clean, modern
-            look that helps users fulfil their goals quickly.
+            As a final step, we’ve created high-fidelity mockups. We removed
+            unnecessary UI elements and kept all design elements consistent
+            throughout the application to ensure a clean and well-spaced design.
+            Strong typographic hierarchy contributes to high readability and
+            orientation in the application.
           </p>
         </div>
         <Swiper
@@ -322,7 +319,7 @@ const Doably = () => {
         >
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-3.png"
+              src="../images/doably-ui-screens-1.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -332,7 +329,7 @@ const Doably = () => {
           </SwiperSlide>
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-2.png"
+              src="../images/doably-ui-screens-2.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -342,7 +339,7 @@ const Doably = () => {
           </SwiperSlide>
           <SwiperSlide>
             <StaticImage
-              src="../images/ui-1.png"
+              src="../images/doably-ui-screens-3.png"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
