@@ -135,42 +135,38 @@ const Doably = () => {
           </ul>
         </div>
       </section>
-      {/* Prioritization Plotting */}
-      <section className="prioritization">
-        <div className="prioritization-width">
-          <h2 className="paragraph-subtitle all-project-title">
-            Prioritization Plotting
-          </h2>
-          <div>
-            <p className="paragraph">
-              In order to build a successful and solid MVP for Focal Point, I
-              had to identify the most important problems. So, I have created a
-              prioritization matrix that shows the relative importance of a set
-              of items based on two weighted criteria - Priority and Effort.
-            </p>
-          </div>
-        </div>
-        <div className="about-img">
-          <StaticImage
-            src="../images/prioritization.png"
-            width={1140}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
-        </div>
-      </section>
+
       {/* Personas */}
       <section className="personas">
         <div className="personas-width">
           <h2 className="paragraph-subtitle all-project-title">Personas</h2>
           <div>
-            <p className="paragraph">
-              The analysis of the in-depth interviews allowed me to create 2
-              user archetypes, thanks to which I could better empathize with our
-              potential customers. During the further stages of designing, I
-              often referred to the figures of Kristin and Robert.
+            <p className="paragraph no-p-m">
+              Based on the user research I set up three personas. There are 3
+              types of our user:
+            </p>
+            <ul className="list-item">
+              <li className="doably-mt-8">
+                <b>Visionary.</b> A person, who thinks about the big picture.
+                They strategize and plan projects and tend to dream big.
+              </li>
+              <li className="doably-mt-8">
+                <b>Project manager.</b> This person is diplomatic, willing to
+                compromise. These types of people are patient, compassionate,
+                and value group success over individual competition
+              </li>
+              <li className="doably-mt-8">
+                <b>Doer.</b> A person who acts, rather then talking or thinking.
+                The doer is all about action. They focus on productivity rather
+                than the big picture.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="paragraph persons-mt-24">
+              Each persona had a scenario that identified a realistic goal the
+              user might have when working with this app. I referred to them
+              throughout the entire product development process.
             </p>
           </div>
         </div>
@@ -186,7 +182,7 @@ const Doably = () => {
         >
           <SwiperSlide>
             <StaticImage
-              src="../images/slide-1.png"
+              src="../images/doably-personas-1.jpg"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
@@ -196,7 +192,17 @@ const Doably = () => {
           </SwiperSlide>
           <SwiperSlide>
             <StaticImage
-              src="../images/slide-2.png"
+              src="../images/doably-personas-2.jpg"
+              width={1140}
+              quality={95}
+              formats={["AUTO", "WEBP", "AVIF"]}
+              alt="A Gatsby astronaut"
+              style={{ marginBottom: `1.45rem` }}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <StaticImage
+              src="../images/doably-personas-3.jpg"
               width={1140}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}

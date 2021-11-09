@@ -807,6 +807,13 @@ pre tt:after {
 .doably-mt-8 {
   margin-top: 10px;
 }
+.persons-mt-24 {
+  margin-top: 24px;
+}
+.no-p-m {
+  margin: 0;
+  padding: 0;
+}
 
 @media only screen and (max-width: 480px) {
   html {
