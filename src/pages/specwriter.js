@@ -159,50 +159,37 @@ const Srecwriter = () => {
           />
         </div>
       </section>
-      {/* Personas */}
+      {/* Empathy map */}
       <section className="personas">
         <div className="personas-width">
-          <h2 className="paragraph-subtitle all-project-title">Personas</h2>
+          <h2 className="paragraph-subtitle all-project-title">Empathy map</h2>
           <div>
             <p className="paragraph">
-              The analysis of the in-depth interviews allowed me to create 2
-              user archetypes, thanks to which I could better empathize with our
-              potential customers. During the further stages of designing, I
-              often referred to the figures of Kristin and Robert.
+              To know if all of these features will meet the user needs, we
+              decided to create an empathy map. <br /> There are 3 types of our
+              potential users: product owners, qa engineers, and developers. To
+              align new key functionalities with all users needs, we set up {""}
+              <b>multiple-user empathy map.</b>
+            </p>
+          </div>
+          <div>
+            <p className="paragraph">
+              While developing this map, we reached out to consumers who use
+              project management tools and analyzed their behavior, motivation,
+              and pain points.
             </p>
           </div>
         </div>
-
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          onSwiper={swiper => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          {...sliderParams}
-        >
-          <SwiperSlide>
-            <StaticImage
-              src="../images/slide-1.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/slide-2.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-        </Swiper>
+        <div className="about-img">
+          <StaticImage
+            src="../images/empathy-map-img.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
       </section>
       {/* User Flow */}
       <section className="user-flow">
