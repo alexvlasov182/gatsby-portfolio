@@ -717,12 +717,14 @@ pre tt:after {
   margin-top: 100px;
 }
 .paragraph-doably,
-.paragraph-focalpoint {
+.paragraph-focalpoint,
+.paragraph-specwriter {
   font-size: 28px;
   text-align: center;
   color: #212121;
 }
-.paragraph-focalpoint {
+.paragraph-focalpoint,
+.paragraph-specwriter {
   margin-top: 80px;
   margin-bottom: 4px;
 }
@@ -735,8 +737,10 @@ pre tt:after {
   color: #212121;
   font-size: 18px;
 }
+
 .subtitle-doably,
-.subtitle-focalpoint {
+.subtitle-focalpoint,
+.subtitle-specwriter {
   margin: 0;
   margin-bottom: 8px;
   text-align: center;

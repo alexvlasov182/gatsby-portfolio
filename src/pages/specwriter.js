@@ -23,8 +23,8 @@ const Srecwriter = () => {
       {/* Main Title */}
       <section className="all-project-title">
         <div className="header"></div>
-        <h1 className="paragraph-focalpoint">SpecWriter</h1>
-        <p className="subtitle-focalpoint">
+        <h1 className="paragraph-specwriter">SpecWriter</h1>
+        <p className="subtitle-specwriter">
           Specification tool for desktop, web, mobile and API software products
         </p>
       </section>
@@ -91,47 +91,67 @@ const Srecwriter = () => {
           </a>
         </div>
       </section>
-      {/* Competitive Analysis */}
+      {/* Research & Problem definition */}
       <section className="competitive">
         <h2 className="paragraph-subtitle all-project-title">
-          Competitive Analysis
+          Research & Problem definition
         </h2>
         <div>
           <p className="paragraph">
-            At the initial stage, I conducted a SWOT analysis of our direct and
-            indirect competition. Then I assessed the key features and
-            functionality of competing applications in the context of our
-            project.
+            To start building MVP, we needed to know the problems and needs of
+            our users. We started with audits of various applications from the
+            management area. Our aim was to gather insights about strategies and
+            best practices.
           </p>
         </div>
         <div>
-          <p className="paragraph">
-            I chose the opportunity to combine the team communication within
-            each project (comments, chat) with procurement functionalities such
-            as: the ability to request everything you need in one click,
-            flexible request forms form and milestones.
-          </p>
+          <h3 className="title-h3 mb-24">Results & Takeaways:</h3>
+          <ul className="list-item">
+            <li>
+              Most applications created team views to engage and retain users.
+            </li>
+            <li>
+              They all focus on sales and user needs, and have a clear user
+              journey that allows users to take action with ease.
+            </li>
+            <li>
+              Almost all applications have a timeline for managing the progress
+              of a project, which is an important management tool.
+            </li>
+            <li>
+              Users can share project pages with people outside of the team,
+              which really helps when dealing with clients.
+            </li>
+          </ul>
         </div>
       </section>
-      {/* Prioritization Plotting */}
+      {/* Prioritization matrix */}
       <section className="prioritization">
         <div className="prioritization-width">
           <h2 className="paragraph-subtitle all-project-title">
-            Prioritization Plotting
+            Prioritization matrix
           </h2>
           <div>
             <p className="paragraph">
-              In order to build a successful and solid MVP for Focal Point, I
-              had to identify the most important problems. So, I have created a
-              prioritization matrix that shows the relative importance of a set
-              of items based on two weighted criteria - Priority and Effort.
+              After defining a list of features from other applications, we
+              began to create our own. Plotting a list of the possible features
+              onto a graph helped narrow down what was{" "}
+              <b> absolutely crucial for delivering the mvp </b> and would could
+              be built upon further down the road.
+            </p>
+          </div>
+          <div>
+            <p className="paragraph">
+              After creating the priority matrix with the team, we found that
+              there are 4 feautures in the block with high priority and low
+              effort. So, we decided to start our MVP with them.
             </p>
           </div>
         </div>
         <div className="about-img">
           <StaticImage
-            src="../images/prioritization.png"
-            width={1140}
+            src="../images/prioritization-matrix-img.png"
+            width={765}
             quality={95}
             formats={["AUTO", "WEBP", "AVIF"]}
             alt="A Gatsby astronaut"
