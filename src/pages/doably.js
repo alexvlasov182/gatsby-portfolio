@@ -80,7 +80,7 @@ const Doably = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-h3 mb-8">Link to product</h3>
+          <h3 className="title-h3 mb-8">Link to Dribble</h3>
           <a
             rel="noreferrer"
             className="link-focalpoint"
@@ -354,24 +354,15 @@ const Doably = () => {
         <h2 className="paragraph-subtitle all-project-title">Takeaways</h2>
         <div className="takeaways-width">
           <p className="paragraph">
-            This project took nearly a year to ideate, design, test, and
-            implement. It was a huge learning experience for me and the entire
-            FocalPoint team.
+            For complex UX problems <b>research is a must.</b> I couldn’t have
+            designed a product users love without the help of people who will
+            actually use it. The user interviews revealed unexpected
+            information.
           </p>
           <p className="paragraph">
-            In my opinion, the perfect motto for this project should be{" "}
-            <b>
-              “It’s easy to come up with design ideas, but it’s hard to solve
-              the right problem.”
-            </b>{" "}
-            Its important to take the time to research and interview users so
-            that you know exactly who you are creating for.
-          </p>
-          <p className="paragraph">
-            This CRM system’s taught me to work with large databases. We have
-            automated the process of analyzing data on purchases of giant
-            companies. The project was successfully presented to customers and
-            now is in use by large companies.
+            <b>Creating personas is a powerful tool.</b> Being aware of users’
+            needs and pain points helped me to create a seamless, end-to-end
+            experience.
           </p>
         </div>
       </section>
