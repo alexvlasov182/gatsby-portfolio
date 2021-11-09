@@ -212,57 +212,39 @@ const Doably = () => {
           </SwiperSlide>
         </Swiper>
       </section>
-      {/* User Flow */}
+      {/* User Journey Map */}
       <section className="user-flow">
         <div className="user-flow-width">
-          <h2 className="paragraph-subtitle all-project-title">User Flow</h2>
+          <h2 className="paragraph-subtitle all-project-title">
+            User Journey Map
+          </h2>
           <div>
             <p className="paragraph">
-              It is important to figure out how the people we design for will
-              make the best use of this product. So, I decided to create a user
-              flow because it is easy to do and also easy to explain. <br /> I
-              divided our application into 10 panels, for which I created user
-              flows, there are a couple of them.
+              After researching and creating personas, we proceeded to create a
+              User Journey Map. It allowed us to answer the question of how our
+              users will use our application, what emotions they will feel, and
+              what problems they may encounter while using it.
             </p>
           </div>
-          <div className="create">
-            1. I as a user want to create a new project.
-          </div>
-          <div className="know">
-            2. I as a user want to know if the supplier fits my project.
+          <div>
+            <p className="paragraph">
+              After creating a map we decided to add templates to our product.
+              It's really helpful for users to see ready-made templates so they
+              can get started easily too.
+            </p>
           </div>
         </div>
 
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          onSwiper={swiper => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          {...sliderParams}
-        >
-          <SwiperSlide>
-            <StaticImage
-              src="../images/user-flow-1.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/user-flow-2.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-        </Swiper>
+        <div className="about-img">
+          <StaticImage
+            src="../images/customer-journey-map.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
       </section>
       {/* Wireframes */}
       <section className="wireframes">
