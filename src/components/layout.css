@@ -85,7 +85,8 @@ a:hover {
 }
 
 .hover-link-footer,
-.link-focalpoint {
+.link-focalpoint,
+.link-specwirter {
   transition: 0.3s;
   color: #4f5abf;
 }
