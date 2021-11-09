@@ -191,57 +191,45 @@ const Srecwriter = () => {
           />
         </div>
       </section>
-      {/* User Flow */}
+      {/* Information architecture */}
       <section className="user-flow">
         <div className="user-flow-width">
-          <h2 className="paragraph-subtitle all-project-title">User Flow</h2>
+          <h2 className="paragraph-subtitle all-project-title">
+            Information architecture
+          </h2>
           <div>
-            <p className="paragraph">
-              It is important to figure out how the people we design for will
-              make the best use of this product. So, I decided to create a user
-              flow because it is easy to do and also easy to explain. <br /> I
-              divided our application into 10 panels, for which I created user
-              flows, there are a couple of them.
+            <p className="paragraph no-p-m">
+              User research and persona creation brought up the users main
+              needs, goals, and behaviours. Therefore, we found that{" "}
+              <b>the main issues our product needed to solve were:</b>
+            </p>
+            <ul className="list-item">
+              <li>Uncertainty about the safety of the tool.</li>
+              <li>
+                The complexity of the tool and the variety of possibilities.
+              </li>
+              <li>Confusion when working with a team..</li>
+            </ul>
+          </div>
+          <div>
+            <p className="paragraph specwriter-mt-24">
+              Based on this information, we were able to <b>define the MVP.</b>{" "}
+              So we started building an Information architecture that can help
+              us make it easier for users to navigate our platform without
+              wasting time thinking about what to do next.
             </p>
           </div>
-          <div className="create">
-            1. I as a user want to create a new project.
-          </div>
-          <div className="know">
-            2. I as a user want to know if the supplier fits my project.
-          </div>
         </div>
-
-        <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          onSwiper={swiper => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
-          {...sliderParams}
-        >
-          <SwiperSlide>
-            <StaticImage
-              src="../images/user-flow-1.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <StaticImage
-              src="../images/user-flow-2.png"
-              width={1140}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="A Gatsby astronaut"
-              style={{ marginBottom: `1.45rem` }}
-            />
-          </SwiperSlide>
-        </Swiper>
+        <div className="about-img">
+          <StaticImage
+            src="../images/specwriter-information.png"
+            width={737}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
       </section>
       {/* Wireframes */}
       <section className="wireframes">

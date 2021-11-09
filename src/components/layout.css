@@ -820,6 +820,11 @@ pre tt:after {
   padding: 0;
 }
 
+/* SpecWriter */
+.specwriter-mt-24 {
+  margin-top: 24px;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
