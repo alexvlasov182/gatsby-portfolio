@@ -150,7 +150,7 @@ const SmartCart = () => {
       {/* User Flow */}
       <section className="user-flow">
         <div className="user-flow-width">
-          <h2 className="paragraph-subtitle all-project-title">User Flow</h2>
+          <h2 className="paragraph-subtitle all-project-title">User flow</h2>
           <div>
             <p className="paragraph">
               I've created a user flow diagram to map every step of the user

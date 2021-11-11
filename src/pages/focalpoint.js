@@ -73,7 +73,7 @@ const Focalpoint = () => {
         <div>
           <h3 className="title-h3">Responsibilities </h3>
           <p className="paragraph">
-            UX Design, Visual Design, Prototyping and Testing
+            UX Design, Visual Design, Prototyping and Testing.
           </p>
         </div>
         <div>
@@ -91,7 +91,7 @@ const Focalpoint = () => {
       {/* Competitive Analysis */}
       <section className="competitive">
         <h2 className="paragraph-subtitle all-project-title">
-          Competitive Analysis
+          Competitive analysis
         </h2>
         <div>
           <p className="paragraph">
@@ -114,7 +114,7 @@ const Focalpoint = () => {
       <section className="prioritization">
         <div className="prioritization-width">
           <h2 className="paragraph-subtitle all-project-title">
-            Prioritization Plotting
+            Prioritization plotting
           </h2>
           <div>
             <p className="paragraph">
@@ -184,14 +184,14 @@ const Focalpoint = () => {
       {/* User Flow */}
       <section className="user-flow">
         <div className="user-flow-width">
-          <h2 className="paragraph-subtitle all-project-title">User Flow</h2>
+          <h2 className="paragraph-subtitle all-project-title">User flow</h2>
           <div>
             <p className="paragraph">
               It is important to figure out how the people we design for will
               make the best use of this product. So, I decided to create a user
-              flow because it is easy to do and also easy to explain. <br /> I
-              divided our application into 10 panels, for which I created user
-              flows, there are a couple of them.
+              flow because it is easy to do and also easy to explain. I divided
+              our application into 10 panels, for which I created user flows,
+              there are a couple of them.
             </p>
           </div>
           <div className="create">

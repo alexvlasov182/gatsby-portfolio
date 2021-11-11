@@ -32,7 +32,7 @@ const Mvp = () => {
           <p className="paragraph">
             MVP Now is a no code platform. The main goal of this product is to
             help non-tech domain experts build web and mobile apps without
-            developers
+            developers.
           </p>
         </div>
         <div>

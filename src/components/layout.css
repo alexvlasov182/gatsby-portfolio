@@ -693,6 +693,7 @@ pre tt:after {
   color: #555555;
   font-weight: 100;
   margin-left: 32px;
+  line-height: 160%;
 }
 .paragraph-subtitle {
   font-size: 28px;
@@ -730,6 +731,7 @@ pre tt:after {
 }
 .paragraph {
   font-weight: 100;
+  line-height: 160%;
 }
 .title-doably,
 .title-h3 {

@@ -69,14 +69,14 @@ const Doably = () => {
           <p className="paragraph">
             I worked in a cross-functional team. With one another designer on
             this project we were involved in all phases of the project, from
-            mapping out the problem to delivering final designs
+            mapping out the problem to delivering final designs.
           </p>
         </div>
         <div>
           <h3 className="title-h3">Responsibilities </h3>
           <p className="paragraph">
             Qualitative Research, UX Design, Visual Design, Prototyping and
-            Testing
+            Testing.
           </p>
         </div>
         <div>
@@ -216,7 +216,7 @@ const Doably = () => {
       <section className="user-flow">
         <div className="user-flow-width">
           <h2 className="paragraph-subtitle all-project-title">
-            User Journey Map
+            User journey map
           </h2>
           <div>
             <p className="paragraph">

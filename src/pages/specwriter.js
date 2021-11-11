@@ -76,7 +76,7 @@ const Srecwriter = () => {
           <p className="paragraph">
             Large-scale analysis of competitors and other research, Maintaining
             documentation (mostly detailed user story), UX Design, Visual
-            Design, Prototyping and Testing
+            Design, Prototyping and Testing.
           </p>
         </div>
         <div>
@@ -166,9 +166,14 @@ const Srecwriter = () => {
           <div>
             <p className="paragraph">
               To know if all of these features will meet the user needs, we
-              decided to create an empathy map. <br /> There are 3 types of our
-              potential users: product owners, qa engineers, and developers. To
-              align new key functionalities with all users needs, we set up {""}
+              decided to create an empathy map.
+            </p>
+          </div>
+          <div>
+            <p className="paragraph">
+              There are 3 types of our potential users: product owners, qa
+              engineers, and developers. To align new key functionalities with
+              all users needs, we set up {""}
               <b>multiple-user empathy map.</b>
             </p>
           </div>
@@ -324,9 +329,11 @@ const Srecwriter = () => {
               research and correct problem definition is a must, especially when
               building an MVP. <br />
             </b>{" "}
+          </p>
+          <p className="paragraph">
             Clients want to see many features in their projects, but it is very
-            important <b> to make all design processes step by step</b>, without
-            missing a single one, <s>even</s> especially for MVP.
+            important to make all design processes step by step, without missing
+            a single one, <s>even</s> especially for MVP.
           </p>
         </div>
       </section>
