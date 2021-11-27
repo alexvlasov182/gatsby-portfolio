@@ -701,7 +701,6 @@ pre tt:after {
   color: #212121;
   margin-bottom: 24px;
 }
-
 /* For section */
 .project-overview,
 .competitive,
@@ -816,7 +815,8 @@ pre tt:after {
 .doably-mt-8 {
   margin-top: 10px;
 }
-.persons-mt-24 {
+.persons-mt-24,
+.focalpoint-mt-8 {
   margin-top: 24px;
 }
 .no-p-m {

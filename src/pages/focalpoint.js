@@ -312,18 +312,24 @@ const Focalpoint = () => {
         </div>
         <div>
           <ul className="list-item">
-            <li className="doably-mt-8">
-              The first thing users want to see is not a list of categories, but
-              a dashboard that helps managers measure the effectiveness of their
-              work.
+            <li className="focalpoint-mt-8">
+              <b>
+                The first thing users want to see is not a list of categories,
+                but a dashboard that helps managers measure the effectiveness of
+                their work.
+              </b>
             </li>
-            <li className="doably-mt-8">
-              Vertical navigation was better because it helped users find the
-              page they were looking for faster.
+            <li className="focalpoint-mt-8">
+              <b>
+                Vertical navigation was better because it helped users find the
+                page they were looking for faster.
+              </b>
             </li>
-            <li className="doably-mt-8">
-              We had to simplify the tables by adding icons and two-line strings
-              because they were overloaded with information.
+            <li className="focalpoint-mt-8">
+              <b>
+                We had to simplify the tables by adding icons and two-line
+                strings because they were overloaded with information.
+              </b>
             </li>
           </ul>
         </div>
