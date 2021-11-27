@@ -705,12 +705,14 @@ pre tt:after {
 /* For section */
 .project-overview,
 .competitive,
+.usability,
 .prioritization-width,
 .personas-width,
 .user-flow-width,
 .wireframes-width,
 .screens-width,
-.takeaways-width {
+.takeaways-width,
+.research-width {
   margin: 0 auto;
   max-width: 700px;
 }

@@ -71,7 +71,7 @@ const Focalpoint = () => {
           </p>
         </div>
         <div>
-          <h3 className="title-h3">Responsibilities </h3>
+          <h3 className="title-h3">Responsibilities</h3>
           <p className="paragraph">
             UX Design, Visual Design, Prototyping and Testing.
           </p>
@@ -88,52 +88,33 @@ const Focalpoint = () => {
           </a>
         </div>
       </section>
-      {/* Competitive Analysis */}
-      <section className="competitive">
-        <h2 className="paragraph-subtitle all-project-title">
-          Competitive analysis
-        </h2>
-        <div>
+      {/* Research */}
+      <section className="research">
+        <h2 className="paragraph-subtitle all-project-title">Research</h2>
+        <div className="research-width">
           <p className="paragraph">
-            At the initial stage, I conducted a SWOT analysis of our direct and
-            indirect competition. Then I assessed the key features and
-            functionality of competing applications in the context of our
-            project.
+            As a first step, we started preparing for user research. Since this
+            was a new area for our design team, we{" "}
+            <b>
+              {" "}
+              conducted a procurement research and analyzed the main
+              competitors.
+            </b>
           </p>
-        </div>
-        <div>
           <p className="paragraph">
-            I chose the opportunity to combine the team communication within
-            each project (comments, chat) with procurement functionalities such
-            as: the ability to request everything you need in one click,
-            flexible request forms form and milestones.
+            The next step was to prepare a list of the features our competitors
+            offer and how they meet the needs of our business. We have carried
+            out a <b> SWOT analysis of our direct and indirect competitors.</b>{" "}
+            We evaluated the key features and functionality of the competing
+            applications in the context of our project.
           </p>
-        </div>
-      </section>
-      {/* Prioritization Plotting */}
-      <section className="prioritization">
-        <div className="prioritization-width">
-          <h2 className="paragraph-subtitle all-project-title">
-            Prioritization plotting
-          </h2>
-          <div>
-            <p className="paragraph">
-              In order to build a successful and solid MVP for Focal Point, I
-              had to identify the most important problems. So, I have created a
-              prioritization matrix that shows the relative importance of a set
-              of items based on two weighted criteria - Priority and Effort.
-            </p>
-          </div>
-        </div>
-        <div className="about-img">
-          <StaticImage
-            src="../images/prioritization.png"
-            width={1140}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
+          <p className="paragraph">
+            To understand user needs and pain points, we{" "}
+            <b> conducted 10 user interviews.</b> During the interview, we
+            confirmed our assumptions that users are accustomed to working with
+            large databases, but are still looking for a way to combine all the
+            tools to save their time.
+          </p>
         </div>
       </section>
       {/* Personas */}
@@ -142,14 +123,13 @@ const Focalpoint = () => {
           <h2 className="paragraph-subtitle all-project-title">Personas</h2>
           <div>
             <p className="paragraph">
-              The analysis of the in-depth interviews allowed me to create 2
-              user archetypes, thanks to which I could better empathize with our
-              potential customers. During the further stages of designing, I
+              The analysis of the in-depth interviews allowed us to create 2
+              user archetypes, thanks to which we could better empathize with
+              our potential customers. During the further design stages , we
               often referred to the figures of Kristin and Robert.
             </p>
           </div>
         </div>
-
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={3}
@@ -181,17 +161,48 @@ const Focalpoint = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+      {/* Prioritization Plotting */}
+      <section className="prioritization">
+        <div className="prioritization-width">
+          <h2 className="paragraph-subtitle all-project-title">
+            Prioritization plotting
+          </h2>
+          <div>
+            <p className="paragraph">
+              In order to build a successful and solid MVP for Focal Point, we
+              had to identify the most important features. So, we’ve created a
+              prioritization matrix that shows the relative importance of a set
+              of items based on two weighted criteria - Priority and Effort.
+            </p>
+          </div>
+        </div>
+        <div className="about-img">
+          <StaticImage
+            src="../images/prioritization.png"
+            width={1140}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
+      </section>
       {/* User Flow */}
       <section className="user-flow">
         <div className="user-flow-width">
           <h2 className="paragraph-subtitle all-project-title">User flow</h2>
           <div>
             <p className="paragraph">
-              It is important to figure out how the people we design for will
-              make the best use of this product. So, I decided to create a user
-              flow because it is easy to do and also easy to explain. I divided
-              our application into 10 panels, for which I created user flows,
-              there are a couple of them.
+              The pain points of our potential users were mainly associated with
+              complex navigation. So, the next step was to create a user flow
+              that helps us see all the possible ways for users to achieve the
+              goal.
+            </p>
+            <p className="paragraph">
+              Creating a user flow also helped us see gaps in navigation and
+              reduce the number of screens. We divided our application into main
+              10 panels, for which we created user flows, there are a couple of
+              them.
             </p>
           </div>
           <div className="create">
@@ -201,7 +212,6 @@ const Focalpoint = () => {
             2. I as a user want to know if the supplier fits my project.
           </div>
         </div>
-
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           slidesPerView={3}
@@ -239,10 +249,10 @@ const Focalpoint = () => {
           <h2 className="paragraph-subtitle all-project-title">Wireframes</h2>
           <div>
             <p className="paragraph">
-              Before moving onto high fidelity wireframes, I wanted to get a
-              feel for what the core of the app would look like when put in
-              front of me. Our product manager and I have created wireframes in
-              Balsamiq in order to have a clearer idea of our future product.
+              Before moving onto high fidelity wireframes, we wanted to get a
+              feel for what the core of the app would look like. Our product
+              manager and I have created wireframes in Balsamiq in order to have
+              a clearer idea of our future product.
             </p>
           </div>
         </div>
@@ -287,15 +297,47 @@ const Focalpoint = () => {
           </SwiperSlide>
         </Swiper>
       </section>
+      {/* Usability study */}
+      <section className="usability">
+        <h2 className="paragraph-subtitle all-project-title">
+          Usability study
+        </h2>
+        <div>
+          <p className="paragraph">
+            I created an interactive prototype to show our future product to
+            potential users so that we can test usability before creating
+            detailed screens. Here are our findings after conducting a usability
+            testing:
+          </p>
+        </div>
+        <div>
+          <ul className="list-item">
+            <li className="doably-mt-8">
+              The first thing users want to see is not a list of categories, but
+              a dashboard that helps managers measure the effectiveness of their
+              work.
+            </li>
+            <li className="doably-mt-8">
+              Vertical navigation was better because it helped users find the
+              page they were looking for faster.
+            </li>
+            <li className="doably-mt-8">
+              We had to simplify the tables by adding icons and two-line strings
+              because they were overloaded with information.
+            </li>
+          </ul>
+        </div>
+      </section>
       {/* UI screens */}
       <section className="screens">
         <h2 className="paragraph-subtitle all-project-title">UI screens</h2>
         <div className="screens-width">
           <p className="paragraph">
             After a few more iterations, I designed the final screens with
-            Figma. I conducted A/B testings during the process to define the
-            design pattern, elements and colours. My aim was a clean, modern
-            look that helps users fulfil their goals quickly.
+            Figma. We conducted A/B testings with a Figma prototype during the
+            process to define the design pattern, elements and colours. My aim
+            was a clean, modern look that helps users fulfil their goals
+            quickly.
           </p>
         </div>
         <Swiper
