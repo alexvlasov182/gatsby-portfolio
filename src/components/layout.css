@@ -777,6 +777,17 @@ pre tt:after {
   color: #5f96bc;
   transition: 0.3s;
 }
+.card-hover {
+  transition: 0.3s;
+}
+.card-hover:hover {
+  box-shadow: 0 3px 30px rgb(0 0 0 / 15%);
+  transition: 0.3s;
+}
+.col-lg-6 {
+  transition: 0.3s;
+  padding-bottom: 20px;
+}
 .card-body {
   padding-top: 0px;
 }

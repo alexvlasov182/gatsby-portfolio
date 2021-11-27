@@ -19,6 +19,7 @@ const SecondPage = () => (
         <Col lg={6}>
           <Link className="card-link" to="/doably">
             <Card
+              className="card-hover"
               data-sal="slide-up"
               data-sal-duration="600"
               data-sal-easing="ease"
@@ -45,6 +46,7 @@ const SecondPage = () => (
         <Col lg={6}>
           <Link className="card-link" to="/specwriter">
             <Card
+              className="card-hover"
               data-sal="slide-up"
               data-sal-duration="900"
               data-sal-easing="ease"
@@ -72,6 +74,7 @@ const SecondPage = () => (
         <Col lg={6}>
           <Link className="card-link" to="/focalpoint">
             <Card
+              className="card-hover"
               data-sal="slide-up"
               data-sal-duration="600"
               data-sal-easing="ease"
@@ -98,6 +101,7 @@ const SecondPage = () => (
         <Col lg={6}>
           <Link className="card-link" to="/smartcart">
             <Card
+              className="card-hover"
               data-sal="slide-up"
               data-sal-duration="900"
               data-sal-easing="ease"
@@ -124,6 +128,7 @@ const SecondPage = () => (
         <Col lg={6}>
           <Link className="card-link" to="/mvp">
             <Card
+              className="card-hover"
               data-sal="slide-up"
               data-sal-duration="600"
               data-sal-easing="ease"
