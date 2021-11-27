@@ -38,7 +38,7 @@ const Footer = () => (
       <NavLink
         className="hover-link-footer"
         target="_blank"
-        to="https://www.linkedin.com/in/anastasiia-pyvovarova-a8b36216b/"
+        to="https://www.linkedin.com/in/anastasiia-vlasova-a8b36216b/"
         activeClassName="current-page"
       >
         LinkedIn
