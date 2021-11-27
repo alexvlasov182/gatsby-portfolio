@@ -17,7 +17,7 @@ const SecondPage = () => (
       </h2>
       <Row>
         <Col lg={6}>
-          <Link className="card-link" to="/doably">
+          <Link className="card-link" to="/focalpoint">
             <Card
               className="card-hover"
               data-sal="slide-up"
@@ -25,24 +25,24 @@ const SecondPage = () => (
               data-sal-easing="ease"
             >
               <StaticImage
-                src="../images/doably.png"
+                src="../images/focal-point.png"
                 width={548}
                 height={424}
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="A Gatsby astronaut"
-                style={{}}
               />
               <Card.Body>
-                <Card.Title className="text-center darken">Doably</Card.Title>
+                <Card.Title className="text-center darken">
+                  Focal Point
+                </Card.Title>
                 <Card.Text className="text-center subtitle-color">
-                  Tool for managing personal and business life
+                  Tool for procurement management
                 </Card.Text>
               </Card.Body>
             </Card>
           </Link>
         </Col>
-
         <Col lg={6}>
           <Link className="card-link" to="/specwriter">
             <Card
@@ -72,7 +72,7 @@ const SecondPage = () => (
           </Link>
         </Col>
         <Col lg={6}>
-          <Link className="card-link" to="/focalpoint">
+          <Link className="card-link" to="/doably">
             <Card
               className="card-hover"
               data-sal="slide-up"
@@ -80,19 +80,18 @@ const SecondPage = () => (
               data-sal-easing="ease"
             >
               <StaticImage
-                src="../images/focal-point.png"
+                src="../images/doably.png"
                 width={548}
                 height={424}
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="A Gatsby astronaut"
+                style={{}}
               />
               <Card.Body>
-                <Card.Title className="text-center darken">
-                  Focal Point
-                </Card.Title>
+                <Card.Title className="text-center darken">Doably</Card.Title>
                 <Card.Text className="text-center subtitle-color">
-                  Tool for procurement management
+                  Tool for managing personal and business life
                 </Card.Text>
               </Card.Body>
             </Card>
