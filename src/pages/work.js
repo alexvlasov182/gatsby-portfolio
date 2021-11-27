@@ -10,7 +10,7 @@ import Layout from "../components/layout"
 const SecondPage = () => (
   <Layout>
     <Container>
-      <h2 className="title-text  ">
+      <h2 className="title-text">
         {" "}
         When it comes to work, <br /> my motto is “Simple is better"{" "}
         <span className="smile">&#10024;</span>
@@ -18,7 +18,11 @@ const SecondPage = () => (
       <Row>
         <Col lg={6}>
           <Link className="card-link" to="/doably">
-            <Card>
+            <Card
+              data-sal="slide-up"
+              data-sal-duration="600"
+              data-sal-easing="ease"
+            >
               <StaticImage
                 src="../images/doably.png"
                 width={548}
@@ -40,7 +44,11 @@ const SecondPage = () => (
 
         <Col lg={6}>
           <Link className="card-link" to="/specwriter">
-            <Card>
+            <Card
+              data-sal="slide-up"
+              data-sal-duration="900"
+              data-sal-easing="ease"
+            >
               <StaticImage
                 src="../images/spec-writer.png"
                 width={548}
@@ -63,7 +71,11 @@ const SecondPage = () => (
         </Col>
         <Col lg={6}>
           <Link className="card-link" to="/focalpoint">
-            <Card>
+            <Card
+              data-sal="slide-up"
+              data-sal-duration="600"
+              data-sal-easing="ease"
+            >
               <StaticImage
                 src="../images/focal-point.png"
                 width={548}
@@ -85,7 +97,11 @@ const SecondPage = () => (
         </Col>
         <Col lg={6}>
           <Link className="card-link" to="/smartcart">
-            <Card>
+            <Card
+              data-sal="slide-up"
+              data-sal-duration="900"
+              data-sal-easing="ease"
+            >
               <StaticImage
                 src="../images/smart-cart-work.png"
                 width={548}
@@ -107,7 +123,11 @@ const SecondPage = () => (
         </Col>
         <Col lg={6}>
           <Link className="card-link" to="/mvp">
-            <Card>
+            <Card
+              data-sal="slide-up"
+              data-sal-duration="600"
+              data-sal-easing="ease"
+            >
               <StaticImage
                 src="../images/mvp.png"
                 width={548}

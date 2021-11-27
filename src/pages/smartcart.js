@@ -19,7 +19,7 @@ const SmartCart = () => {
       {/* Image FocalPoint */}
       <div className="about-img">
         <StaticImage
-          src="../images/main-image-smartcart.jpg"
+          src="../images/smartcart-main.jpg"
           width={1140}
           quality={95}
           formats={["AUTO", "WEBP", "AVIF"]}
