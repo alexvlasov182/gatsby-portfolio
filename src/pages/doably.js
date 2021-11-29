@@ -91,7 +91,7 @@ const Doably = () => {
           </a>
         </div>
       </section>
-      {/* Competitive Analysis */}
+      {/* Research & Problem definition */}
       <section className="competitive">
         <h2 className="paragraph-subtitle all-project-title">
           Research & Problem definition
@@ -99,8 +99,9 @@ const Doably = () => {
         <div>
           <p className="paragraph">
             We used Lean UX principles in the development of "Doably" to focus
-            on users and their needs at each phase of the design process. At
-            first, we had to formulate and validate the hypothesis:
+            on users and their needs at each phase of the design process. After
+            conducting the first in-depth interviews, we had to formulate and
+            validate the hypothesis:
           </p>
         </div>
         <div>

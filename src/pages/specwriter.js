@@ -125,40 +125,6 @@ const Srecwriter = () => {
           </ul>
         </div>
       </section>
-      {/* Prioritization matrix */}
-      <section className="prioritization">
-        <div className="prioritization-width">
-          <h2 className="paragraph-subtitle all-project-title">
-            Prioritization matrix
-          </h2>
-          <div>
-            <p className="paragraph">
-              After defining a list of features from other applications, we
-              began to create our own. Plotting a list of the possible features
-              onto a graph helped narrow down what was{" "}
-              <b> absolutely crucial for delivering the mvp </b> and would could
-              be built upon further down the road.
-            </p>
-          </div>
-          <div>
-            <p className="paragraph">
-              After creating the priority matrix with the team, we found that
-              there are 4 feautures in the block with high priority and low
-              effort. So, we decided to start our MVP with them.
-            </p>
-          </div>
-        </div>
-        <div className="about-img">
-          <StaticImage
-            src="../images/prioritization-matrix-img.png"
-            width={765}
-            quality={95}
-            formats={["AUTO", "WEBP", "AVIF"]}
-            alt="A Gatsby astronaut"
-            style={{ marginBottom: `1.45rem` }}
-          />
-        </div>
-      </section>
       {/* Empathy map */}
       <section className="personas">
         <div className="personas-width">
@@ -196,6 +162,40 @@ const Srecwriter = () => {
           />
         </div>
       </section>
+      {/* Prioritization matrix */}
+      <section className="prioritization">
+        <div className="prioritization-width">
+          <h2 className="paragraph-subtitle all-project-title">
+            Prioritization matrix
+          </h2>
+          <div>
+            <p className="paragraph">
+              After defining a list of features from other applications, we
+              began to create our own. Plotting a list of the possible features
+              onto a graph helped narrow down what was{" "}
+              <b> absolutely crucial for delivering the mvp </b> and would could
+              be built upon further down the road.
+            </p>
+          </div>
+          <div>
+            <p className="paragraph">
+              After creating the priority matrix with the team, we found that
+              there are 4 feautures in the block with high priority and low
+              effort. So, we decided to start our MVP with them.
+            </p>
+          </div>
+        </div>
+        <div className="about-img">
+          <StaticImage
+            src="../images/prioritization-matrix-img.png"
+            width={765}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="A Gatsby astronaut"
+            style={{ marginBottom: `1.45rem` }}
+          />
+        </div>
+      </section>
       {/* Information architecture */}
       <section className="user-flow">
         <div className="user-flow-width">
@@ -213,7 +213,7 @@ const Srecwriter = () => {
               <li>
                 The complexity of the tool and the variety of possibilities.
               </li>
-              <li>Confusion when working with a team..</li>
+              <li>Confusion when working with a team.</li>
             </ul>
           </div>
           <div>
