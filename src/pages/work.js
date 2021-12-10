@@ -10,11 +10,21 @@ import Layout from "../components/layout"
 const SecondPage = () => (
   <Layout>
     <Container>
-      <h2 className="title-text">
-        {" "}
-        When it comes to work, <br /> my motto is “Simple is better"{" "}
-        <span className="smile">&#10024;</span>
-      </h2>
+      <div className="block-work">
+        <h2 className="title-text">
+          {" "}
+          When it comes to work, <br /> my motto is “Simple is better"{" "}
+        </h2>
+        <StaticImage
+          src="../images/sparkles_2728.png"
+          width={89}
+          height={89}
+          quality={100}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="A Gatsby astronaut"
+        />
+      </div>
+
       <Row>
         <Col lg={6}>
           <Link className="card-link" to="/focalpoint">
